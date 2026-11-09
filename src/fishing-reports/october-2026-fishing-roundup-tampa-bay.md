@@ -2,28 +2,30 @@
 title: "October 2026 Fishing Roundup — Tampa Bay, FL"
 seoTitle: "October 2026 Fishing Roundup, Tampa Bay | CFTB"
 h1: "October 2026 Fishing Roundup — Tampa Bay, FL"
-description: "Trout, Spanish mackerel and redfish moved into Tampa Bay in October, and hogfish trips are back on. What changed this month and what's coming next."
-date: 2026-10-08
+description: "Gag season closed after a great September, so what is biting on Tampa Bay in October 2026? Trout, Spanish mackerel, redfish on the flats and hogfish offshore."
+date: 2026-10-31
 permalink: /fishing-reports/october-2026-fishing-roundup-tampa-bay/
 heroImg: grouper-tampa-bay
 heroAlt: Angler holding a grouper on Tampa Bay
 ---
-Gag grouper season closed at the end of September, and our boats shifted gears right away. Here's what changed on the water this month.
+"We had a great gag grouper season last month, but that season is done, and we are shifting gears." That's how our captains opened October. So the questions changed too.
 
-## Trout and Spanish mackerel moved in
+## Can we still keep a gag grouper?
 
-Speckled trout and Spanish mackerel showed up inside the bay on schedule, giving inshore trips steady action. Both bite well this time of year as the water starts to cool.
+Not until next season. Gag season ran September 1 to 30 and was a great run. Red grouper still come up on [nearshore](/nearshore/) and [offshore](/offshore-fishing/) trips.
 
-## Redfish filled the flats
+## What's biting inside the bay?
 
-Our captains found redfish plentiful on the flats and along the mangrove tree lines. That's right where the fall mullet schools are moving, so the reds have plenty to eat.
+**Speckled trout and Spanish mackerel.** Both moved in right on schedule, giving steady, fun action inside the bay.
 
-## Hogfish trips are back
+**Redfish.** Plentiful on the flats and along the mangrove tree lines. That follows the redfish schools that pushed into the bay through August and September. If you've been waiting on redfish, this is the time. See [redfish trips](/redfish/).
 
-Hogfish, also called hog snapper, are back on the menu. Our hogfish trips run from now through the winter and into spring, so there's a long window to get on the calendar.
+## What about hogfish?
 
-## What's coming in November
+Hogfish, also called hog snapper, are back on the menu, and our captains fish for them from now through the winter and spring. In January they were part of the offshore mixed bags.
 
-The mullet run peaks in November, and that puts snook, redfish and sharks on the feed at the same time. Kings pass the mouth of the bay in October and November too.
+## What's the best trip to book right now?
 
-Want to get in on the fall bite? [Inshore trips](/inshore/) start at $600, or [reserve your date online](https://book.vallypro.com/p/charter-fishingtampa-bay).
+For the most action with the least run, an [inshore trip](/inshore/): trout, Spanish mackerel and reds in the same water. For red grouper, look at nearshore and offshore; for hogfish, offshore. Both depend on the weather.
+
+October dates were filling as the month went on. Call (813) 714-5670 to check November.
