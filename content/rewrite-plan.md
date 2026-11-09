@@ -18,6 +18,7 @@ Rewritten pages draw only on:
 Anything missing gets a `[PLACEHOLDER]`. Never invent facts, numbers, quotes, boats or species.
 
 **Before any rewriting:** the research findings go into a Google Doc in the client's Drive folder ("Capt. William - Charter Fishing Tampa Bay"), titled "Research Findings — Charter Fishing Tampa Bay (Nov 2026)", so the team has them outside the repo.
+Done Nov 9, 2026: https://docs.google.com/document/d/1lGBJOi5qnz047LnQC1prqeb2Y_yy4xlzf6e-LxHkb1o/edit
 
 ## Sitemap decisions (Nov 9, 2026, with Andre)
 
