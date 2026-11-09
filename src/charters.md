@@ -5,7 +5,7 @@ seoTitle: "Fishing Trips & Prices | Charter Fishing Tampa Bay"
 description: "Compare every Tampa Bay fishing charter we run: inshore, nearshore, offshore, crappie & species trips, with prices by length. Reserve with a 10% deposit."
 h1: Tampa Bay Fishing Charters
 wide: true
-intro: "Calm flats at sunrise, a cooler of snapper off Gulf bottom, a tarpon in the air in July, or specks in the grass on a quiet lake. Pick the kind of day you want, and we'll put you with the captain who fishes it."
+intro: "Nine trips run by four captains, each on his own boat. Every price is per boat, not per person, and covers your captain, rods, reels, tackle and bait."
 ---
 ## Fishing charters by the water you want
 
@@ -21,4 +21,4 @@ Your captain, rods, reels, tackle and bait, plus bottled water and ice. Saltwate
 
 ## Where trips leave from
 
-Marinas around metro Tampa, depending on the captain and the trip. [DEPARTURE MARINAS] Crappie trips launch from whichever lake the fish are on that week.
+Capt. Pruner's inshore trips leave from Ruskin, at 611 Destiny Drive. Offshore trips launch from a ramp around Tampa Bay chosen for the day's weather, and crappie trips launch on the Kissimmee area lake we're fishing that week. Your captain confirms the meeting point when you book. More on [where we fish](/tampa-bay-fishing/), and meet the captains on [Our Captains](/about/). Questions? Our [FAQ](/faq/) covers licenses, kids and weather, our [reviews page](/reviews/) shows what guests say, and you can always [contact us](/contact-us/).

@@ -1,76 +1,56 @@
 ---
 layout: trip.njk
 permalink: /crappie-fishing/
-seoTitle: "Crappie Fishing Near Orlando | Charter Fishing Tampa Bay"
-description: "Guided crappie fishing on Lake Toho, Lake Kissimmee & Crooked Lake. Calm water, steady action, great for families. 4 & 6 hour trips from $550."
+seoTitle: "Crappie Fishing Charters Near Kissimmee, FL | CFTB"
+description: "Guided crappie fishing on Lake Kissimmee, Lake Toho & Crooked Lake near Orlando. Up to 4 guests, 4 or 6 hours from $550. Bring a FL freshwater license."
 h1: Crappie Fishing Charters Near Orlando
 crumb: Crappie
 heroImg: lake-kissimmee-crappie
 heroAlt: A cooler lid covered in crappie from Lake Kissimmee
 opening:
-  - "The jig drops along the edge of the grass, sits for a second, and the line ticks. Once you find a school of specks, they keep coming, one after another."
-  - "On a January trip, the crappie had moved into the grass on Lake Kissimmee, and our guests caught limits of up to 25 fish apiece on jigs and minnows."
+  - "In January 2026 the crappie moved into the grass on Lake Kissimmee. Our guests were catching full limits, up to 25 fish per person, on light tackle with jigs and minnows."
+  - "That cooler lid in the photo is what a good crappie morning looks like."
 rates: [["4 hours","$550"],["6 hours","$650"]]
 rateNote: Price per boat, up to 4 guests.
+captains: [["Capt. Ashmore","ashmore"],["Capt. Gonzalez","gonzalez"]]
 guests: Up to 4
-departs: Varies by lake and where the fish are
-included: Captain, rods, reels, tackle, bait, safety equipment, cooler with water and ice
-bring: Florida freshwater fishing license, snacks, drinks, a hat, sunglasses, clothes for the weather
+departs: "A ramp on the lake we're fishing that week; your captain confirms when you book"
+times: "8:00 AM"
+included: Captain, rods, reels, tackle, bait, safety equipment, and a cooler with cold water and ice
+bring: A Florida freshwater fishing license for each angler, food and drinks, sunglasses, sun protection
 ---
-## Crappie fishing on the lakes south of Orlando
+## A freshwater day away from the bay
 
-These trips trade the bay for the chain of lakes outside Orlando. No swells, no long runs and no seasickness, just quiet water and steady bites.
+Crappie trips run on the Kissimmee area lakes south of Orlando: Lake Kissimmee, Lake Toho and Crooked Lake. The booking page calls them "perfect for a day of fun for new & experienced anglers."
 
-We go where the fish are that week. Depending on the season and the weather, that might be grass edges, drop offs, open water or beds.
+There's no run across open water and no swell, just a boat on a calm lake.
 
-## Where we fish for crappie
+## How the January bite worked
 
-### Lake Kissimmee
+The fish were staging along grass edges and openings. Once the captain found a school, the bites stayed steady and the action held.
 
-The grass edges and openings were holding fish on our January trips, with the crappie staging and feeding along them.
+Jigs on light tackle did most of the work, and minnows worked well too. That's simple fishing, which is why this trip suits kids and first timers.
 
-### Lake Toho and Crooked Lake
+## When to book
 
-We run crappie trips on these lakes too, and go wherever the fish are biting that week.
+The booking calendar is open all year. Our January report called December through March the crappie season on these lakes, so winter is the time to go.
 
-## What you'll catch on a crappie fishing charter
+If you're coming to Tampa Bay in summer, look at [inshore trips](/inshore/) or a [shark trip](/shark/) instead.
 
-### Crappie
+## Who runs crappie trips
 
-Florida anglers call them specks. They school up, so once your captain finds them the action stays steady, and they're some of the best eating fish around.
+Capt. Ashmore and Capt. Gonzalez take the crappie trips. Capt. Ashmore has fished Central Florida and the Tampa Bay area for more than 40 years; you can read about both on [Our Captains](/about/).
 
-### Bluegill, shellcracker and the odd bass
+## Crappie questions
 
-Bluegill and shellcracker often come along, and every so often a largemouth bass crashes the party.
+### Do we need a fishing license?
 
-## How your crappie fishing charter works
-
-### Before you go
-
-Reserve online with a 10% deposit. Your captain confirms which lake and launch point the day before, based on where the fish are.
-
-### On the water
-
-Light tackle, jigs and minnows. It's simple, hands on fishing that keeps kids and beginners busy.
-
-### Taking fish home
-
-We bring a cooler with ice, so your crappie ride home cold.
-
-## Crappie fishing charter questions
-
-### Is this a saltwater trip?
-
-No. It's freshwater, on the lakes south of Orlando.
-
-### Which lake will we fish?
-
-Whichever one is producing that week.
+Yes. This is freshwater, so each angler needs a Florida freshwater fishing license. Our saltwater trips include the license, but crappie trips don't.
 
 ### Is it good for kids?
 
-Yes. Calm water, short travel and steady bites make it one of our easiest trips for young anglers.
+Yes. Calm water, simple tackle and fish that bite once you find them.
 
-### When is the best time?
+### Can we keep the crappie?
 
-[CONFIRM WITH CAPTAIN: best months for crappie]
+Yes, within Florida's limits. In January our guests were taking home limits of up to 25 per person, and the cooler with ice comes standard. See the [January 2026 roundup](/fishing-reports/january-2026-fishing-roundup-tampa-bay/) for that month's report.

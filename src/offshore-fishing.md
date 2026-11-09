@@ -1,98 +1,60 @@
 ---
 layout: trip.njk
 permalink: /offshore-fishing/
-seoTitle: "Offshore Fishing Trips | Charter Fishing Tampa Bay"
-description: "Offshore bottom fishing from Tampa Bay on Gulf wrecks & ledges for grouper, snapper, cobia & kingfish. Up to 4 guests, fish cleaned at the dock. From $950."
+seoTitle: "Offshore Fishing Charters From Tampa Bay, FL | CFTB"
+description: "Offshore fishing past the 9 mile line from Tampa Bay: red grouper, snapper & pelagics on Gulf wrecks & ledges. Up to 6 guests, 6 or 8 hours from $950."
 h1: Offshore Fishing Charters From Tampa Bay
 crumb: Offshore
 heroImg: offshore-snapper-grouper-deck
 heroAlt: Snapper and grouper laid out on the deck after an offshore trip
 opening:
-  - "The rod loads, the line comes tight, and something on a Gulf ledge 80 feet down decides it wants to go home. You lean back, crank, and wait to see color coming up through the blue."
-  - "Some drops it's a red snapper. Some drops it's a gag grouper that pulls like a truck. By the ride in, the fish box tells the story of the day."
+  - "Our offshore trip starts where nearshore ends: at the nine mile line where Florida's state waters stop and federal water begins. The boat holds a federal permit for reef and pelagic fish, so everything out there is fair game."
+  - "In September 2026, red grouper and red snapper led the offshore bite, with mangrove, lane and vermilion snapper mixed in."
 rates: [["6 hours","$950"],["8 hours","$1,150"]]
-rateNote: Price per boat, up to 4 guests.
-guests: "Up to 6 (5th guest +$75, 6th +$150)"
-departs: "Launch points around Tampa Bay [CONFIRM]"
-included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice, and your catch cleaned at the dock
-bring: Food, drinks, sunglasses, sunblock, seasickness medicine if you need it
+rateNote: Price per boat for up to 4 guests. 5th guest +$75, 6th +$150.
+captains: [["Capt. Ashmore","ashmore"],["Capt. Hahn","hahn"]]
+guests: Up to 6
+departs: "A ramp around Tampa Bay chosen for the day's weather; your captain confirms when you book"
+times: "8:00 AM for 6 or 8 hours; 1:00 PM for 6 hours"
+included: Captain, rods, reels, tackle, bait, saltwater fishing licenses, and your catch cleaned at the dock
+bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen, seasickness medicine if you need it
 ---
-## Offshore bottom fishing in the Gulf off Tampa Bay
+## Bottom fishing with a lookout for pelagics
 
-Offshore trips leave the bay behind and run out to Gulf structure: wrecks, reefs and ledges. Depending on the target, you'll drop to 40 to 100 feet or more.
+Most of an offshore day is spent on the bottom. Your captain drops baits 40 to 100 feet or more onto wrecks, reefs and ledges, using live bait, cut bait and jigs.
 
-Tampa Bay's layout gets us outside quickly, so more of the day goes to fishing instead of running. Each trip is planned around the conditions and what has been biting.
+The Gatorbacks trip description puts it this way: "All your favorite bottom fish and we are always looking for those pelagics as well." Pelagics are the fish that roam the water above the bottom, like kingfish and cobia.
 
-> "He took great care of us and went the extra mile to ensure we caught fish." Caleb C.
+## What came over the rail this year
 
-## What you'll catch on an offshore fishing charter
+**January 2026:** red grouper, lane snapper, mangrove snapper, triggerfish, porgies and hogfish. The [January roundup](/fishing-reports/january-2026-fishing-roundup-tampa-bay/) has the nearshore side of that month.
 
-### Red grouper
+**September 2026:** red grouper and red snapper led, whenever the weather let us out. Gag grouper season ran September 1 to 30 that year; see [grouper trips](/grouper/) for how gag season works.
 
-On our September offshore trips, red grouper were hungry whenever the weather let us reach the right structure. They're great eating and a favorite when they're in season.
+## Two captains, two specialties
 
-### Gag grouper
+Capt. Ashmore has fished the Tampa Bay area and Central Florida for more than 40 years and holds a USCG Master license for vessels up to 100 gross tons.
 
-Gags hit hard and head straight for the bottom. Their keeping season is short, often only a few weeks, so check the dates when you book. [More on grouper trips](/grouper/)
+Capt. Hahn is a certified Master Diver. He has been underwater on the wrecks and ledges he fishes, and he runs a 25 foot Sailfish center console with room for six. Read more about both on [Our Captains](/about/).
 
-### Red snapper
+> "Captain took us to all his best spots and it was fish on every stop we did !! we had lotta variety of bait to make sure we can catch whatevar was out there." Davi C., with Capt. Hahn
 
-Red snapper led the offshore bite alongside the red grouper in September. When they're in season, they're one of the best fish to bring home.
+## When the Gulf won't cooperate
 
-### Mangrove, lane and vermilion snapper
+Offshore depends on the wind more than any other trip. Our captains say it plainly: "we will always call it straight if conditions are not safe or productive enough to run."
 
-All three were cooperating in September too, which gives an offshore day options when one species slows down.
+If an offshore day is called off, you get a new date or your 10% deposit back. Many groups switch to a [nearshore trip](/nearshore/) or an [inshore trip](/inshore/) inside the bay instead.
 
-### Cobia
-
-Cobia often cruise or hover near structure. When one shows up, everyone wants a turn.
-
-### Kingfish and mackerel
-
-Kings show up on offshore trips alongside the bottom fish, with fast strikes and long runs.
-
-### Sheepshead, porgies, grunts and triggerfish
-
-The fish that keep the rods bending between the big bites, and plenty of them are good on the table.
-
-## Offshore fishing out of Tampa Bay by season
-
-### Cooler months
-
-Grouper move closer to the bay, and the runs to good bottom get shorter.
-
-### Warmer months
-
-The grouper push farther offshore, and the runs get longer and the drops deeper. Snapper seasons drive a lot of summer trips.
-
-### Weather calls the shots
-
-Offshore trips depend on the Gulf. If it isn't safe or worth running, your captain will tell you straight, and you get a new date or your deposit back.
-
-## How your offshore fishing charter works
-
-### On the water
-
-Your captain runs to the structure, marks the fish and sets up heavy bottom rigs. When the rod doubles over, it's all you.
-
-### Back at the dock
-
-We clean your catch before you leave, so you go home with fillets, not a cooler full of work.
-
-## Offshore fishing charter questions
+## Offshore questions
 
 ### How many people can come?
 
-Up to 4.
+Up to six. The price covers four; the fifth guest is $75 and the sixth $150.
 
-### How deep do we fish?
+### How long are offshore trips?
 
-Usually 40 to 100 feet or more, depending on the target.
+Six or eight hours. Offshore doesn't come as a four hour trip.
 
 ### Do we keep the fish?
 
-Yes, what's in season and within Florida limits, cleaned at the dock.
-
-### What if the Gulf is too rough?
-
-You get a new date or your deposit back. Your captain may suggest an inshore or nearshore trip instead.
+Yes, whatever is in season and within Florida limits. Your catch is cleaned at the dock before you head home.

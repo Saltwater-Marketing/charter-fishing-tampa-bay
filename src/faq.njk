@@ -1,50 +1,54 @@
 ---
 layout: page.njk
 permalink: /faq/
-seoTitle: "Fishing Charter FAQ | Charter Fishing Tampa Bay"
-description: "Answers to common questions about booking a Tampa Bay fishing charter: prices, licenses, kids, weather, deposits & what to bring. Call (813) 714-5670."
+seoTitle: "Tampa Bay Fishing Charter FAQ: Prices, Licenses & Kids | CFTB"
+description: "Answers to Tampa Bay fishing charter questions: prices, group sizes, start times, licenses, kids, weather, deposits & where trips leave. Call (813) 714-5670."
 h1: Tampa Bay Fishing Charter FAQ
-intro: "The questions our guests ask most. Still have one? Call (813) 714-5670."
+intro: "The questions our guests ask most. Still have one? Call or text (813) 714-5670."
 faqs:
   - group: Booking and prices
     items:
       - q: How much does a fishing charter cost?
-        a: "Crappie trips start at $550. Inshore, redfish, snook and shark trips start at $600. Grouper and tarpon start at $650, nearshore at $850 and offshore at $950. Price is per boat and depends on trip length. See every price on our charters page."
+        a: 'Prices are per boat, not per person. Crappie starts at $550. Inshore, redfish, snook and shark start at $600. Nearshore and tarpon start at $650, and offshore at $950. Every price by trip length is on the <a href="/charters/">charters page</a>.'
+      - q: How many people can come?
+        a: 'Inshore, nearshore, offshore and shark trips take up to six; the price covers four, and the fifth and sixth guests are $75 and $150. Redfish, tarpon and crappie trips take up to four. Snook trips take up to three.'
+      - q: What time do trips leave?
+        a: 'Morning trips leave at 8:00 AM. Most 4 and 6 hour trips can also leave at 1:00 PM. Crappie trips leave in the morning only.'
       - q: How do I reserve a trip?
-        a: Book online or call us. A 10% deposit holds your date.
+        a: 'Book online or call or text (813) 714-5670. A 10% deposit holds your date.'
       - q: What happens if the weather is bad?
-        a: Deposits are refundable for weather. If conditions are unsafe or unfishable, we reschedule or return your deposit rather than run a bad trip.
+        a: 'If conditions are unsafe, you get a new date or your deposit back. Our captains call it straight rather than run a trip that isn''t safe or worth fishing. An <a href="/inshore/">inshore trip</a> inside the bay is often the backup when the Gulf is rough.'
       - q: Do you sell gift cards?
-        a: Yes, in any amount, good for any trip.
+        a: 'Yes, in any amount, good for any trip. Buy them on our booking page.'
   - group: What's included and what to bring
     items:
       - q: Do I need a fishing license?
-        a: Not for saltwater trips. The charter license covers everyone on board. Crappie trips are freshwater, so each angler brings a Florida freshwater fishing license.
+        a: 'Not for saltwater trips; the license is covered for everyone on board, including the snook permit. <a href="/crappie-fishing/">Crappie trips</a> are freshwater, so each angler brings a Florida freshwater fishing license.'
       - q: What's included?
-        a: Your captain, rods, reels, tackle and bait, plus bottled water and ice. On offshore trips we also clean your catch at the dock.
+        a: 'Your captain, rods, reels, tackle and bait, and a cooler with water and ice. On <a href="/offshore-fishing/">offshore trips</a> your catch is cleaned at the dock.'
       - q: What should I bring?
-        a: Food or snacks, any drinks besides water, sunglasses, sunblock and clothes for the weather.
+        a: 'Any food and drinks you want other than water, polarized sunglasses, and sun protective clothing or sunscreen.'
   - group: On the water
     items:
       - q: Can kids come?
-        a: Yes. Inshore and crappie trips are the easiest for young kids because the water is calm.
+        a: 'Yes. Inshore, shark and crappie trips are the easiest for young anglers. One guest wrote that Capt. Gonzalez "kept them engaged and excited the whole time" on a trip with his two nephews.'
       - q: Do I need experience?
-        a: No. Your captain rigs the rods, picks the spot and talks you through every bite.
+        a: 'No. Your captain rigs the rods, picks the spot and coaches you through the bite and the fight.'
       - q: What will we catch?
-        a: It depends on the trip and the season. Redfish, snook and trout inshore. Snapper, grouper, sheepshead and kings nearshore. Bigger grouper, snapper and cobia offshore. Crappie on the lakes.
-      - q: Do you fish all year?
-        a: Yes. What's biting changes with the seasons, but there's always something worth going after.
-      - q: How many people can come?
-        a: "Up to 4 on offshore and crappie trips. [CONFIRM limits for other trips]"
+        a: 'Inshore: redfish, snook, trout, Spanish mackerel and snapper. Nearshore: grouper, snapper, grunts, sheepshead and kingfish. Offshore: red grouper, red snapper and other reef fish. Crappie on the lakes. Our <a href="/fishing-reports/">fishing reports</a> show what was biting recently, like the <a href="/fishing-reports/october-2026-fishing-roundup-tampa-bay/">October 2026 roundup</a>.'
+      - q: Can we keep fish?
+        a: 'Yes, what''s in season and within Florida limits. Tarpon are catch and release, and snook can only be kept in the spring and fall harvest windows.'
   - group: Where we go
     items:
       - q: Where do trips leave from?
-        a: "Marinas around metro Tampa, depending on the captain and the trip. [DEPARTURE MARINAS] Crappie trips launch from the lake we're fishing that week."
+        a: 'Capt. Pruner''s inshore trips leave from Ruskin, at 611 Destiny Drive. Offshore trips launch from a ramp around Tampa Bay chosen for the day''s weather, and crappie trips launch on the lake we''re fishing that week. Your captain confirms the meeting point when you book.'
       - q: What areas do you fish?
-        a: All of Tampa Bay, including Apollo Beach, St. Petersburg and Anna Maria, plus the Gulf and the lakes south of Orlando.
+        a: 'Tampa Bay from Ruskin to St. Petersburg, the Gulf past the mouth of the bay, and the Kissimmee area lakes for crappie. See <a href="/tampa-bay-fishing/">where we fish</a>.'
+      - q: Who are the captains?
+        a: 'Capt. William Ashmore, Capt. David Pruner, Capt. Frankie Gonzalez and Capt. Rob Hahn, each running his own boat. Meet them on <a href="/about/">Our Captains</a>, read their <a href="/reviews/">reviews</a>, or <a href="/contact-us/">send us your dates</a>.'
 ---
 {% for g in faqs %}
 <h2>{{ g.group }}</h2>
-{% for i in g.items %}<h3>{{ i.q }}</h3><p>{{ i.a }}</p>{% endfor %}
+{% for i in g.items %}<h3>{{ i.q }}</h3><p>{{ i.a | safe }}</p>{% endfor %}
 {% endfor %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for g in faqs %}{% for i in g.items %}{"@type":"Question","name":{{ i.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ i.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for g in faqs %}{% for i in g.items %}{"@type":"Question","name":{{ i.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ i.a | striptags | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}{% if not loop.last %},{% endif %}{% endfor %}]}</script>

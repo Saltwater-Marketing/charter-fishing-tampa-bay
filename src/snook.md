@@ -14,7 +14,7 @@ rates: [["4 hours","$600"],["6 hours","$750"],["8 hours","$950"]]
 rateNote: Price per boat for up to 3 guests.
 captains: [["Capt. Pruner","pruner"],["Capt. Gonzalez","gonzalez"],["Capt. Ashmore","ashmore"]]
 guests: Up to 3
-departs: "Ruskin, at 611 Destiny Dr [CONFIRM for each captain]"
+departs: "Ruskin, at 611 Destiny Dr, or a ramp your captain confirms when you book"
 times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 or 6 hours"
 included: Captain, rods, reels, tackle, bait, saltwater fishing licenses and the snook permit
 bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen

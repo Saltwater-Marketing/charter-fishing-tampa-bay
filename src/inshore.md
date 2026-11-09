@@ -14,7 +14,7 @@ rates: [["4 hours","$600"],["6 hours","$750"],["8 hours","$950"]]
 rateNote: Price per boat for up to 4 guests. 5th guest +$75, 6th +$150.
 captains: [["Capt. Pruner","pruner"],["Capt. Gonzalez","gonzalez"],["Capt. Ashmore","ashmore"]]
 guests: Up to 6
-departs: "Ruskin, at 611 Destiny Dr, with hotel or dock pickup in Ruskin on request [CONFIRM for each captain]"
+departs: "Ruskin, at 611 Destiny Dr, with hotel or dock pickup in Ruskin; your captain confirms when you book"
 times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 or 6 hours"
 included: Captain, rods, reels, tackle, bait and saltwater fishing licenses
 bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen
@@ -31,7 +31,7 @@ Your captain picks the water by the tide and the wind on the day.
 
 **Snook** hold on docks, mangrove points and the beaches. They jump when hooked, and in season you can keep one inside the slot. More on our [snook trips](/snook/).
 
-**Speckled trout** sit in the troughs and wait for the tide to bring them a meal. The big ones are females, so most oversized fish go back.
+**Speckled trout** sit in the troughs and wait for the tide to bring them a meal. The big ones are females, so most oversized fish go back; the [August 2026 roundup](/fishing-reports/august-2026-fishing-roundup-tampa-bay/) tells the eleven trout story.
 
 **The extras** make a slow tide a good one. In September the bay held schools of Spanish mackerel with jacks and ladyfish mixed in, plus mangrove snapper and white grunt. Read what turned up in our [September 2026 roundup](/fishing-reports/september-2026-fishing-roundup-tampa-bay/).
 
@@ -51,7 +51,7 @@ Capt. Pruner fishes from Bradenton Beach up into Tampa Bay on a 23 foot Sea Pro 
 
 Capt. Gonzalez runs a 22 foot Pathfinder with a 250 horsepower Yamaha. He was born and raised on this water.
 
-Capt. Ashmore has fished Tampa Bay and Central Florida for more than 40 years. [BOAT: make, length, engine]
+Capt. Ashmore has fished Tampa Bay and Central Florida for more than 40 years and holds a USCG Master license for vessels up to 100 gross tons.
 
 ## Picking a trip length
 

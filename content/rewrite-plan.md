@@ -43,7 +43,9 @@ Old Wix leftovers redirected: `/copy-of-about`, `/confirmation`, `/profile/*`.
 
 - Nov 9: Inshore, Redfish, Snook and Nearshore rewritten from the research (booking page facts, captains' listings, verbatim reviews, report facts). Corrected site wide: guest limits, nearshore from $650, offshore up to 6, crappie guests bring a freshwater license, "Gonzalez" spelling.
 - Review quotes in `src/_data/reviews.json` (Eric M., Scott M., Jeff T., Cody G., Caleb C.) don't trace to any source found so far; not used on rewritten pages until confirmed.
-- Next: Our Captains (with William/Gatorbacks), Home, Offshore, Crappie, Tarpon, Grouper, Shark, Where We Fish, FAQ, Reviews.
+- Nov 9 (later): Our Captains, Home, Offshore, Crappie, Tarpon, Grouper, Shark, Where We Fish, FAQ, Reviews, Charters and Contact rewritten from the research. Real reviews replace the untraceable quotes in `src/_data/reviews.json`. Privacy and Terms copied word for word from the live Wix pages. Report bylines set to Charter Fishing Tampa Bay. Gift card link points to the booking page.
+- Nothing more is coming from the client. Gaps are written around: launch points (Ruskin plus "your captain confirms"), William's boat (not mentioned), William's and David's review text (counts only).
+- Still to confirm before launch: the SMS consent wording on Contact matches the A2P registration; the privacy policy's contact email (wda68@hotmail.com, copied from the live page).
 
 ## Decided
 

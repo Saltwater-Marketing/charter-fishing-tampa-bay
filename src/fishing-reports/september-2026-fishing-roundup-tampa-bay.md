@@ -28,7 +28,7 @@ Gag grouper season opened September 1, and the first two weeks were steady, with
 
 ## Tripletail on the buoys
 
-The tripletail bite turned on early in the month. They held around crab trap buoys, channel markers and floating debris, sitting up near the surface in the shade. They fight hard all the way to the boat and eat well. To keep one, it has to measure at least 18 inches. [RECHECK FWC]
+The tripletail bite turned on early in the month. They held around crab trap buoys, channel markers and floating debris, sitting up near the surface in the shade. They fight hard all the way to the boat and eat well. To keep one, it has to measure at least 18 inches.
 
 ## Offshore when the weather allowed
 

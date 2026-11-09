@@ -1,62 +1,48 @@
 ---
 layout: trip.njk
 permalink: /tarpon/
-seoTitle: "Tarpon Fishing Trips | Charter Fishing Tampa Bay"
-description: "Tarpon fishing in Tampa Bay during the summer run, which peaks May through August, with private trips led by local guides. From $650. Reserve your date."
+seoTitle: "Tarpon Fishing Charters in Tampa Bay, FL | CFTB"
+description: "Tampa Bay tarpon charters May through July on the bridges, passes & beaches. Catch & release, up to 4 guests, 4, 6 or 8 hours from $650 per boat."
 h1: Tarpon Fishing Charters in Tampa Bay
 crumb: Tarpon
 heroImg: charter-boat-dock
 heroAlt: Charter boat tied up at the dock on Tampa Bay
 opening:
-  - "A silver back rolls on the surface, then another. Everyone on the boat goes quiet. When one finally eats, it doesn't run first. It jumps, all of it, clear of the water and shaking its head."
-  - "That's the silver king, and it comes through Tampa Bay every summer."
+  - "Every summer a run of migratory tarpon comes through Tampa Bay. Our captains fish them on the bridges and around the passes, and sometimes on the beach."
+  - "Tarpon trips are on the booking calendar from May 1 to July 31, the heart of that run."
 rates: [["4 hours","$650"],["6 hours","$900"],["8 hours","$1,150"]]
-rateNote: Price per boat. Book more than one tarpon trip and save $50 on each.
-guests: "Up to 4 (3rd guest +$75, 4th +$150)"
-departs: "[MARINA]"
-included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice
-bring: Food, drinks, sunglasses, sunblock
+rateNote: Price per boat for 2 anglers. 3rd guest +$75, 4th +$150.
+captains: [["Capt. Pruner","pruner"],["Capt. Gonzalez","gonzalez"],["Capt. Ashmore","ashmore"]]
+guests: Up to 4
+departs: "Ruskin, at 611 Destiny Dr, or a ramp your captain confirms when you book"
+times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 hours"
+included: Captain, rods, reels, tackle, bait and saltwater fishing licenses
+bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen
 ---
-## The Tampa Bay tarpon run
+## Bridges, passes and the beach
 
-Tarpon migrate into Tampa Bay in numbers every year, with the peak from May through August. They're big, strong and famous for jumping once they're hooked.
+In Tampa Bay that means the bridges, the passes and the beaches.
 
-Landing one takes patience and a little luck. Your captain puts you where they're moving, and the rest is between you and the fish.
+Tarpon trips are kept small: the price covers two anglers, and the boat takes four at most.
 
-## When to book a tarpon charter
+## What to expect
 
-### May through August
+Florida manages tarpon as catch and release, so you'll leave with photos and a sore back rather than fillets.
 
-The peak of the run. Prime dates fill early, so plan ahead if you have a week in mind.
+## Other summer options
 
-### Into the fall
+If tarpon are scarce on your dates, the same summer water holds [snook](/snook/) on the beaches and passes, and sharks stay busy around the bay. See [shark trips](/shark/) or a general [inshore trip](/inshore/).
 
-Some tarpon stay in the area into the fall, and the ones still around during the mullet run often feed right in the middle of the bait schools.
+## Tarpon questions
 
-## What a tarpon trip is like
+### Which captains run tarpon trips?
 
-### Looking for fish
+Capt. Pruner, Capt. Gonzalez and Capt. Ashmore. Meet them on [Our Captains](/about/).
 
-A lot of a tarpon day is watching for rolling fish and getting the boat in position.
+### Can I book a tarpon trip in August?
 
-### The fight
+The booking calendar runs May 1 to July 31. Call (813) 714-5670 about dates outside that window.
 
-Expect jumps, long runs and sore arms. Your captain handles the boat and coaches you through every jump.
+### How many can come?
 
-### Releasing the fish
-
-[CONFIRM: tarpon release and tag policy]
-
-## Tarpon charter questions
-
-### Is a hookup guaranteed?
-
-No. Tarpon fishing is about getting shots, and some days the fish won't eat.
-
-### Can I book more than one day?
-
-Yes, and you save $50 on each trip when you book more than one.
-
-### What else might we catch?
-
-Tarpon trips run in the same water as snook, redfish and sharks. [See inshore trips](/inshore/)
+Up to four. The rate covers two anglers; the third is $75 and the fourth $150.

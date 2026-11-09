@@ -290,3 +290,7 @@ form .check input{width:auto;margin-top:4px}
 .prose-wide{max-width:none}.prose-wide>p,.prose-wide>h2,.prose-wide>h3{max-width:780px}
 .welcome-lead{font-family:var(--display);font-weight:700;font-size:26px!important;line-height:1.2;color:var(--navy)}
 .details dd a{color:#fff;text-underline-offset:3px}.details dd a:hover{color:var(--accent)}
+.cap-quote{margin:14px 0 0;padding:14px 18px;background:var(--sand);border-left:4px solid var(--accent);border-radius:0 10px 10px 0}
+.cap-quote p{margin:0 0 6px;font-size:17px}.cap-quote footer{font-weight:700;font-size:15px;color:var(--navy)}
+.cap-reviews{border-bottom:0}.cap-reviews div{max-width:760px}
+.boat-list{margin:0 0 16px;padding-left:20px}.boat-list li{margin:0 0 8px}
