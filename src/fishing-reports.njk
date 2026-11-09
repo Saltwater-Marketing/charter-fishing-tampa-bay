@@ -9,6 +9,6 @@ intro: "Written from real trips by the captains who ran them. When there's somet
 <div class="reports" style="max-width:none">
 {% for r in collections.reports %}
 <a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
-<span class="meta">{{ r.date | monthYear }} · {{ r.data.author }}</span><span class="rt">{{ r.data.h1 }}</span></a>
+<span class="meta">{{ r.date | monthYear }}</span><span class="rt">{{ r.data.h1 }}</span></a>
 {% endfor %}
 </div>

@@ -77,7 +77,7 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
         <h3>Capt. David Pruner</h3><p>Learned on "the quiet lakes of Indiana" with his dad and has fished for 25 years. He runs <a href="/inshore/">inshore trips</a> out of Ruskin on a 23 foot Sea Pro.</p></div>
       <div class="captain"><img src="/images/capt-gonzales.webp" alt="Capt. Frankie Gonzalez holding a snook" loading="lazy" width="619" height="826" style="object-position:top">
         <h3>Capt. Frankie Gonzalez</h3><p>Born and raised on this water, with 30 years inshore from Tampa Bay to the Nature Coast. One family's <a href="/shark/">shark trip</a> with him landed an 80 pound bull.</p></div>
-      <div class="captain"><img src="/images/capt-hahn.webp" alt="Capt. Rob Hahn holding a gag grouper" loading="lazy" width="1102" height="1400">
+      <div class="captain"><img src="/images/capt-hahn.webp" alt="Capt. Rob Hahn holding a gag grouper" loading="lazy" width="1102" height="1400" style="object-position:center 18%">
         <h3>Capt. Rob Hahn</h3><p>A certified Master Diver who has been underwater on the wrecks and ledges he fishes for <a href="/grouper/">grouper</a> and snapper.</p></div>
     </div>
   </div>
@@ -152,7 +152,7 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
     <div class="reports">
     {% for r in collections.reports | head(3) %}
       <a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
-      <span class="meta">{{ r.date | monthYear }} · {{ r.data.author }}</span><span class="rt">{{ r.data.h1 or r.data.title }}</span></a>
+      <span class="meta">{{ r.date | monthYear }}</span><span class="rt">{{ r.data.h1 or r.data.title }}</span></a>
     {% endfor %}
     </div>
   </div>

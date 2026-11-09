@@ -6,7 +6,7 @@ layout: base.njk
   <div class="wrap">
     <p class="crumbs"><a href="/">Home</a> / <a href="{{ parentUrl or '/fishing-reports/' }}">{{ parentLabel or "Fishing Reports" }}</a></p>
     <h1>{{ h1 or title }}</h1>
-    {% if author %}<p class="byline">By {{ author }} · {{ date | monthYear }}</p>{% endif %}
+    <p class="byline">{{ date | monthYear }}</p>
   </div>
 </section>
 <div class="wrap prose-wrap"><div class="prose">
@@ -14,4 +14,4 @@ layout: base.njk
 {{ content | safe }}
 </div></div>
 </article>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ (h1 or title) | dump | safe }},"datePublished":"{{ date | isoDate }}","author":{"@type":"Person","name":{{ (author or "Charter Fishing Tampa Bay") | dump | safe }}},"publisher":{"@type":"Organization","name":"Charter Fishing Tampa Bay"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ (h1 or title) | dump | safe }},"datePublished":"{{ date | isoDate }}","author":{"@type":"Organization","name":"Charter Fishing Tampa Bay"},"publisher":{"@type":"Organization","name":"Charter Fishing Tampa Bay"}}</script>

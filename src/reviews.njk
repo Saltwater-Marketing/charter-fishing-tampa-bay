@@ -1,41 +1,88 @@
 ---
-layout: page.njk
+layout: base.njk
 permalink: /reviews/
-seoTitle: "Guest Reviews of Our Tampa Bay Fishing Charters | CFTB"
-description: "Real five star reviews of our Tampa Bay fishing guides, word for word: families, first timers, birthday sharks & Christmas dinner. 133 Google reviews."
-h1: What Our Guests Say
-intro: "133 five star Google reviews across our captains and Charter Fishing Tampa Bay. Here are some of them, word for word."
+seoTitle: "Reviews: 133 Five Star Google Reviews | Charter Fishing Tampa Bay"
+description: "Real five star reviews of our Tampa Bay fishing guides, word for word: an 80 lb bull shark, 80+ fish in a day, a birthday shark. 133 Google reviews."
+ctaHeading: "Ready to write the next one?"
 ---
-<p>Each of our captains runs his own business and collects reviews on its Google profile: Gatorbacks Fishing Charters (Capt. Ashmore) 68, FG Charters (Capt. Gonzalez) 37, Barotrauma Fishing Charters (Capt. Hahn) 10 and Hooked On Tampa Bay (Capt. Pruner) 6. Charter Fishing Tampa Bay has 12 of its own. Counts as of November 2026.</p>
+{% set G %}<svg class="pf-icon" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>{% endset %}
+{% set FB %}<svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1877F2"/><path fill="#fff" d="M15.12 12.5h-2.1V20h-3.1v-7.5H8.4V9.86h1.52V8.15c0-1.25.6-3.2 3.2-3.2h2.37v2.57h-1.72c-.28 0-.68.14-.68.74v1.6h2.4z"/></svg>{% endset %}
+{% set CE %}<svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#12304B"/><path d="M12 5.5a1.6 1.6 0 1 1 0 3.2 1.6 1.6 0 0 1 0-3.2zm-.75 3.2h1.5v8.6c1.9-.3 3.4-1.6 3.9-3.4h-1.6l2.4-2.6 2.1 2.6h-1.4c-.6 3-3.3 5.2-6.4 5.2s-5.8-2.2-6.4-5.2H4l2.1-2.6 2.4 2.6H6.9c.5 1.8 2 3.1 3.9 3.4V8.7z" fill="#F7931E"/></svg>{% endset %}
+{% set FBK %}<svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#0B6E8E"/><path d="M5 12c2.2-2.8 4.8-4.2 7.6-4.2 2.3 0 4.3 1 6 2.6L21 9v6l-2.4-1.4c-1.7 1.6-3.7 2.6-6 2.6-2.8 0-5.4-1.4-7.6-4.2zm9.6-1.1a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8z" fill="#fff"/></svg>{% endset %}
+{% set WEB %}<svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#F7931E"/><path d="M12 5a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm4.8 6.2h-2.1a11 11 0 0 0-.9-3.9 5.6 5.6 0 0 1 3 3.9zM12 6.6c.6.8 1.1 2.4 1.3 4.6h-2.6c.2-2.2.7-3.8 1.3-4.6zm-1.8.7a11 11 0 0 0-.9 3.9H7.2a5.6 5.6 0 0 1 3-3.9zm-3 5.5h2.1c.1 1.5.4 2.8.9 3.9a5.6 5.6 0 0 1-3-3.9zm4.8 4.6c-.6-.8-1.1-2.4-1.3-4.6h2.6c-.2 2.2-.7 3.8-1.3 4.6zm1.8-.7c.5-1.1.8-2.4.9-3.9h2.1a5.6 5.6 0 0 1-3 3.9z" fill="#0B2238"/></svg>{% endset %}
+{% set STARS %}<span class="stars" aria-label="5 out of 5 stars">★★★★★</span>{% endset %}
 
-<h2>Capt. Frankie Gonzalez</h2>
-<p>Inshore, nearshore, shark, tarpon and crappie. <a href="/about/#gonzalez">About Capt. Gonzalez</a></p>
-<blockquote><p>"Captain Frankie provided an outstanding fishing experience for my family.  He went above and beyond to make our trip outstanding.  Created  memories that will last a lifetime. 80 pound bull shark landed and a big one that got away!"<br><strong>Jason P., April 2026</strong></p></blockquote>
-<blockquote><p>"We booked a last minute fishing trip two days before Christmas and had a great time! Caught enough fish to feed the whole family for Christmas dinner"<br><strong>Xella D., December 2025</strong></p></blockquote>
-<blockquote><p>"Best Captain on the Bay. We had a great charter with Frankie on our vacation and caught so many fish. Even got to take 11 fish home to eat. Thank you Frankie! We will be back"<br><strong>Betty S., May 2025</strong></p></blockquote>
-<blockquote><p>"We went out this weekend with Frankie on our vacation to Clearwater. You can tell Frankie knows the bay like the back of his hand, as he shared with us that he was born and raised in the area. We had a blast and caught so many fish we lost count with 11 being keepers. Thank you Captain Frankie for filling our freezer and giving us great memories."<br><strong>Kim H., May 2025</strong></p></blockquote>
-<blockquote><p>"Captain Frankie with FG Charters gave us an unforgettable day on the water! He took me and my two nephews out fishing, and we had an absolute blast. Not only is he super knowledgeable and professional, but he's also great with kids and kept them engaged and excited the whole time. We ended up catching over 80 fish! It was non-stop action, and the boys haven't stopped talking about it since. If you're looking for a top-notch fishing experience, look no further. FG Charters is the real deal. Thanks, Captain Frankie!"<br><strong>Kyle N., April 2025</strong></p></blockquote>
-<blockquote><p>"Captain Frankie gave us a fantastic day on the water! My teenage son and I booked a charter in Tampa Bay and had a blast—we each caught 6 fish, released most, but kept a couple nice ones. Frankie's boat is super comfortable, and he knew exactly where to go for the best chances. He's friendly, easygoing, and made the experience fun and stress-free for both of us. It's clear he loves what he does, and it shows in how much effort he puts into making the trip great. We'll definitely be booking again next time we're in Florida!"<br><strong>Nataliya D., April 2025</strong></p></blockquote>
-<blockquote><p>"Fishing Adventure from Minnesota to Florida! We had an incredible fishing trip, thanks to Captain Frankie! From start to finish, Captain Frankie showed us the ropes and made the experience one our kids will never forget. The kids loved every moment, and we were able to catch some amazing fish along the way. Frankie's expertise and friendly approach made the whole trip enjoyable for everyone. Highly recommend this adventure for anyone looking to make lasting memories. Thumbs up!!"<br><strong>Kelly L., April 2025</strong></p></blockquote>
-<blockquote><p>"Went out today with Frankie at FG Charters and had an epic day….after getting tired of catching Redfish, I finally got my first legal slot snook in 7 years!!! Always a great time at FG Charters"<br><strong>Dennis R., April 2025</strong></p></blockquote>
-<blockquote><p>"Extremely knowledgeable captain. We've been out multiple times with capt Frankie. He has us on our targeted species on every trip. Friendly and accommodating."<br><strong>Brooksville Logistics, April 2025</strong></p></blockquote>
-<blockquote><p>"Hands down the best fishing charter! Frankie was great and my son is super happy. Highly recommended."<br><strong>Samar, April 2025</strong></p></blockquote>
-<blockquote><p>"Went on a trip with Captain Frankie and it was an awesome day on the water.  Caught lots of fish.  Captain was attentive and helpful and a hard worker .  Captain worked hard to keep us on active fish.  Would highly recommend.  Captain was definitely dialed in on the fish.   Five  Stars!"<br><strong>Jon L., 2026</strong></p></blockquote>
-<blockquote><p>"Absolutely recommend booking with FG charters! You're going to catch fish when out with Frankie, he knows what he's doing and will get you set up and hookin up fish in no time. We had a great time out on the water thanks to Frankie."<br><strong>Ashley H., 2026</strong></p></blockquote>
-<blockquote><p>"Had a great time.  Frankie put us on to a lot of fish.  Caught a ton of grunts and some grouper.  He is very knowledgeable, helpful  and friendly.   Truly enjoys his job which makes for a great experience."<br><strong>Dawn R., 2026</strong></p></blockquote>
-<blockquote><p>"5 star! Great experience! Frankie is very knowledgeable and puts you on the fish, will definitely book again."<br><strong>Kly, December 2024</strong></p></blockquote>
+<section class="page-hero rv-hero" style="--hero:url(/images/two-anglers-redfish.webp)">
+  <div class="wrap">
+    <h1>133 Five Star Google Reviews, Four Captains</h1>
+    <p class="lead">Our guides each run their own boat and their own business, so their reviews live on five separate Google profiles instead of one. Here they are side by side, word for word.</p>
+  </div>
+</section>
 
-<h2>Capt. William Ashmore</h2>
-<p>Offshore, crappie, inshore and nearshore. <a href="/about/#ashmore">About Capt. Ashmore</a></p>
-<blockquote><p>"Captain Ashmore did a fantastic job of putting us on the fish all day long! He was so very accommodating and personable. He kept everyone engaged with his knowledge of Tampa Bay and its ecosystem. We were all so very impressed! And!!! We caught so many huge fish!!!!!! We have so many awesome family photos and memories that will last a lifetime!!!!"<br><strong>Randy P.</strong></p></blockquote>
-<blockquote><p>"Lots of knowledge with a calm cool demeanor. Caught fish all day every spot we stopped at! Great trip, highly recommend."<br><strong>Guest review, Gatorbacks Fishing Charters</strong></p></blockquote>
+<section class="section rv-platforms-wrap">
+  <div class="wrap">
+    <div class="rv-platforms">
+      <div class="rv-pf rv-pf-main">{{ G | safe }}<div><p class="rv-pf-name">Google</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count"><strong>133</strong> reviews across 5 profiles</p></div></div>
+      <div class="rv-pf">{{ FB | safe }}<div><p class="rv-pf-name">Facebook</p><p class="rv-pf-score">Recommended</p><p class="rv-pf-count">Charter Fishing Tampa Bay page</p></div></div>
+      <div class="rv-pf">{{ CE | safe }}<div><p class="rv-pf-name">Captain Experiences</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count">Verified review, Capt. Gonzalez</p></div></div>
+      <div class="rv-pf">{{ FBK | safe }}<div><p class="rv-pf-name">FishingBooker</p><p class="rv-pf-score">Listed</p><p class="rv-pf-count">Capt. Pruner, new listing</p></div></div>
+    </div>
 
-<h2>Capt. Rob Hahn</h2>
-<p>Offshore and grouper. <a href="/about/#hahn">About Capt. Hahn</a></p>
-<blockquote><p>"Captain Rob gave us an amazing experience had so much fun. He knew right where to take us so we could catch plenty of fish!!! Would recommend him to anyone and we will be going again in the near future"<br><strong>Chelsey H., March 2026</strong></p></blockquote>
-<blockquote><p>"11/10 experience!! Captain took us to all his best spots and it was fish on every stop we did !! we had lotta variety of bait to make sure we can catch whatevar was out there. WOULD DEF RECOMMEND"<br><strong>Davi C.</strong></p></blockquote>
+    <div class="rv-split">
+      <div>
+        <p class="eyebrow">Where the 133 come from</p>
+        <h2>One brand, five Google profiles</h2>
+        <p>Each captain built his reviews under his own business name. Added up, that's 133 Google reviews, and every profile holds a 5.0 rating. Counts as of November 2026.</p>
+      </div>
+      <ul class="rv-bars">
+        <li style="--w:100%"><span class="rv-bar-label">Gatorbacks Fishing Charters <em>Capt. Ashmore</em></span><span class="rv-bar"><span></span></span><strong>68</strong></li>
+        <li style="--w:54%"><span class="rv-bar-label">FG Charters <em>Capt. Gonzalez</em></span><span class="rv-bar"><span></span></span><strong>37</strong></li>
+        <li style="--w:18%"><span class="rv-bar-label">Charter Fishing Tampa Bay <em>All captains</em></span><span class="rv-bar"><span></span></span><strong>12</strong></li>
+        <li style="--w:15%"><span class="rv-bar-label">Barotrauma Fishing Charters <em>Capt. Hahn</em></span><span class="rv-bar"><span></span></span><strong>10</strong></li>
+        <li style="--w:9%"><span class="rv-bar-label">Hooked On Tampa Bay <em>Capt. Pruner</em></span><span class="rv-bar"><span></span></span><strong>6</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-<h2>Charter Fishing Tampa Bay</h2>
-<blockquote><p>"They were very accommodating as we booked our trip last minute when we passed through the area, but they made it happen for us on short notice. Also, water conditions were less than ideal and abnormally cold and although the fish weren't biting great the captain tried multiple locations and different baits until we started catching some. My son had a memorable 12th birthday. He'll never forget catching a shark!"<br><strong>Darby L. H., February 2026, Facebook</strong></p></blockquote>
+<section class="band-navy section">
+  <div class="wrap">
+    <p class="eyebrow eyebrow-light">Straight from the reviews</p>
+    <h2>Days people wrote home about</h2>
+    <div class="rv-moments">
+      <div class="rv-moment"><strong>80 lb</strong><span>bull shark landed, "and a big one that got away"</span><em>Jason P.</em></div>
+      <div class="rv-moment"><strong>80+</strong><span>fish in one trip with two nephews</span><em>Kyle N.</em></div>
+      <div class="rv-moment"><strong>7 years</strong><span>waiting for a legal slot snook, then got one</span><em>Dennis R.</em></div>
+      <div class="rv-moment"><strong>Dec 23</strong><span>caught "enough fish to feed the whole family for Christmas dinner"</span><em>Xella D.</em></div>
+      <div class="rv-moment"><strong>12th</strong><span>birthday, and a shark he'll "never forget"</span><em>Darby L. H.</em></div>
+      <div class="rv-moment"><strong>11</strong><span>keepers on a Clearwater vacation, "so many fish we lost count"</span><em>Kim H.</em></div>
+    </div>
+  </div>
+</section>
 
-<p>Some of our best days don't fit in a review, like the <a href="/fishing-reports/grouper-tripletail-wapiti-combat-veterans-september-2026/">September 11 trip with the Wapiti Combat Veterans Foundation</a>. See photos in the <a href="/gallery/">gallery</a>, compare trips on the <a href="/charters/">charters page</a>, or <a href="/contact-us/">send us a message</a> with your dates.</p>
+<section class="section">
+  <div class="wrap">
+    <div class="head-row"><div><p class="eyebrow">The review wall</p><h2>Every review we could find, word for word</h2></div></div>
+    <div class="rv-filters" role="group" aria-label="Filter reviews by captain">
+      <button type="button" class="rv-chip is-on" data-f="all">All</button>
+      <button type="button" class="rv-chip" data-f="gonzalez">Capt. Gonzalez</button>
+      <button type="button" class="rv-chip" data-f="ashmore">Capt. Ashmore</button>
+      <button type="button" class="rv-chip" data-f="hahn">Capt. Hahn</button>
+      <button type="button" class="rv-chip" data-f="cftb">Charter Fishing Tampa Bay</button>
+    </div>
+    <div class="rv-wall">
+    {% for r in allReviews %}
+      <figure class="rv-card" data-c="{{ r.captain }}">
+        <div class="rv-card-top">{% if r.platform == "google" %}{{ G | safe }}{% elif r.platform == "facebook" %}{{ FB | safe }}{% elif r.platform == "captainexperiences" %}{{ CE | safe }}{% else %}{{ WEB | safe }}{% endif %}{{ STARS | safe }}</div>
+        <blockquote>"{{ r.quote }}"</blockquote>
+        <figcaption><strong>{{ r.name }}</strong>{% if r.date %} · {{ r.date }}{% endif %}<span class="rv-tag">{{ r.captainLabel }}</span></figcaption>
+      </figure>
+    {% endfor %}
+    </div>
+    <p class="rv-note">Reviews appear as written, typos included. Google only shows part of each profile to visitors who aren't signed in, so these are the ones we could read; the counts above are the full totals. Meet the captains on <a href="/about/">Our Captains</a>, see photos in the <a href="/gallery/">gallery</a>, or compare trips on the <a href="/charters/">charters page</a>.</p>
+  </div>
+</section>
+<script>
+(function(){var chips=document.querySelectorAll('.rv-chip'),cards=document.querySelectorAll('.rv-card');
+chips.forEach(function(b){b.addEventListener('click',function(){chips.forEach(function(x){x.classList.toggle('is-on',x===b)});var f=b.getAttribute('data-f');cards.forEach(function(c){c.hidden=!(f==='all'||c.getAttribute('data-c')===f)})})});})();
+</script>

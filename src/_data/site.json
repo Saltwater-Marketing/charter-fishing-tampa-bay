@@ -18,7 +18,8 @@
       { "label": "Redfish", "url": "/redfish/" }, { "label": "Snook", "url": "/snook/" },
       { "label": "Tarpon", "url": "/tarpon/" }, { "label": "Grouper", "url": "/grouper/" }, { "label": "Shark", "url": "/shark/" } ] },
     { "label": "Where We Fish", "url": "/tampa-bay-fishing/" },
-    { "label": "Our Captains", "url": "/about/" },
+    { "label": "Our Captains", "url": "/about/", "children": [
+      { "label": "Meet the Captains", "url": "/about/" }, { "label": "Reviews", "url": "/reviews/" }, { "label": "Gallery", "url": "/gallery/" } ] },
     { "label": "Fishing Reports", "url": "/fishing-reports/" },
     { "label": "FAQ", "url": "/faq/" },
     { "label": "Contact", "url": "/contact-us/" }
