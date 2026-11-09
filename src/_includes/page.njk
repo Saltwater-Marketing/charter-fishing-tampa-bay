@@ -7,6 +7,6 @@ layout: base.njk
     {% if intro %}<p class="lead">{{ intro }}</p>{% endif %}
   </div>
 </section>
-<div class="wrap prose-wrap"><div class="prose">
+<div class="wrap prose-wrap"><div class="prose{% if wide %} prose-wide{% endif %}">
 {{ content | safe }}
 </div></div>

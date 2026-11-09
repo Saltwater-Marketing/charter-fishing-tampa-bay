@@ -56,14 +56,15 @@
 <main id="main">
 {{ content | safe }}
 </main>
-<section class="band-accent">
-  <svg class="wave wave-accent" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C180 48 360 48 540 30S900 0 1080 12s270 30 360 24V48H0z"/></svg>
-  <div class="wrap cta-row">
-    <div>
-      <h2 class="display-md">{{ ctaHeading or "Hold your date" }}</h2>
-      <p>Tell us what you want to catch and when you're in town. A 10% deposit holds your date, and if the weather turns, you get a new date or your deposit back.</p>
+<section class="final-cta">
+  <div class="wrap final-cta-inner">
+    <p class="eyebrow eyebrow-light">Ready when you are</p>
+    <h2>{{ ctaHeading or "Hold Your Date on Tampa Bay" }}</h2>
+    <p>Tell us what you want to catch and when you're in town. A 10% deposit holds your date, and if the weather turns, you get a new date or your deposit back.</p>
+    <div class="hero-actions center">
+      <a class="btn btn-accent btn-lg" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+      <a class="btn btn-ghost btn-lg" href="tel:{{ site.tel }}">Call {{ site.phone }}</a>
     </div>
-    <a class="btn btn-navy" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
   </div>
 </section>
 <footer class="site-footer">

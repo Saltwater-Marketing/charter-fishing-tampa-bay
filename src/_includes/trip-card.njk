@@ -1,0 +1,13 @@
+<article class="trip-card">
+  <a class="trip-card-media" href="{{ t.url }}" tabindex="-1" aria-hidden="true"><img src="/images/{{ t.img }}.webp" alt="" loading="lazy" width="1400" height="1050"></a>
+  <div class="trip-card-body">
+    <h3><a href="{{ t.url }}">{{ t.name }} Fishing Charter</a></h3>
+    <p class="trip-from">From <strong>{{ t.from }}</strong> per boat{% if t.guests %}<span class="trip-guests">{{ t.guests }}</span>{% endif %}</p>
+    <p class="trip-hook">{{ t.line }}</p>
+    <ul class="trip-rates">{% for r in t.rates %}<li><span>{{ r[0] }}</span><strong>{{ r[1] }}</strong></li>{% endfor %}</ul>
+    <div class="trip-actions">
+      <a class="btn btn-outline btn-sm" href="{{ t.url }}">Learn More</a>
+      <a class="btn btn-accent btn-sm" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+    </div>
+  </div>
+</article>

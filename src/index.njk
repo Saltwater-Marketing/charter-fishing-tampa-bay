@@ -6,75 +6,74 @@ heroImg: grouper-tampa-bay
 homeHero: true
 schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charter Fishing Tampa Bay","url":"https://www.charterfishingtampabay.com/","telephone":"+1-813-714-5670","email":"william@charterfishingtampabay.com","address":{"@type":"PostalAddress","addressLocality":"Tampa","addressRegion":"FL","addressCountry":"US"},"areaServed":["Tampa Bay","Apollo Beach","St. Petersburg","Anna Maria"],"sameAs":["https://www.facebook.com/charterfishingtampabay","https://www.instagram.com/charterfishingtampabay/"]}'
 ---
+
 <section class="home-hero">
   <img class="home-hero-bg" src="/images/grouper-tampa-bay.webp" alt="Guest holding a gag grouper on Tampa Bay" fetchpriority="high" width="1400" height="1133">
   <div class="wrap home-hero-inner">
-    <p class="eyebrow eyebrow-light">Private charters · Tampa Bay, Gulf &amp; Central Florida lakes</p>
     <h1>Tampa Bay Fishing Charters for <span class="hl">Whatever You Came to Catch</span></h1>
-    <p class="hero-lead">Maybe it's your kid's first redfish on a calm morning in the mangroves. Maybe it's a cooler of snapper and grouper off Gulf bottom, or a tarpon jumping beside the boat in July.</p>
+    <h2 class="hero-sub">Inshore, nearshore, offshore and crappie trips with a team of local captains, from $550 per boat.</h2>
     <div class="hero-actions">
       <a class="btn btn-accent btn-lg" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
-      <a class="btn btn-ghost btn-lg" href="/charters/">See Our Charters</a>
+      <a class="btn btn-ghost btn-lg" href="tel:{{ site.tel }}">Call {{ site.phone }}</a>
     </div>
+    <ul class="hero-trust"><li>10% deposit holds your date</li><li>Deposit refunded for weather</li><li>Fishing licenses included</li></ul>
   </div>
-  <svg class="wave wave-white" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C180 48 360 48 540 30S900 0 1080 12s270 30 360 24V48H0z"/></svg>
 </section>
 
-<section class="intro-strip">
-  <div class="wrap intro-grid">
-    <div class="intro-copy">
+<section class="section section-light">
+  <div class="wrap welcome">
+    <div>
+      <p class="eyebrow">Welcome to Charter Fishing Tampa Bay</p>
+      <h2>A team of local captains, one for every kind of trip</h2>
+    </div>
+    <div class="welcome-copy">
+      <p>Maybe it's your kid's first redfish on a calm morning in the mangroves. Maybe it's a cooler of snapper and grouper off Gulf bottom, or a tarpon jumping beside the boat in July.</p>
       <p>Our team of captains fishes inshore, nearshore, offshore and the lakes near Orlando. So whatever you have in mind and whenever you can get away, one of our captains is already out there doing it.</p>
-      <p class="intro-stat">Between them, that's [95+] years of fishing and [850+] five star reviews.</p>
+      <p><strong>Between them, that's [95+] years of fishing and [850+] five star reviews.</strong></p>
+      <p>Tell us what you want to catch and when you're in town, and we'll put you on the right boat.</p>
+      <a class="btn btn-navy" href="/charters/">Explore Our Charters</a>
     </div>
-    <ul class="trust">
-      <li><strong>10% deposit</strong><span>holds your date</span></li>
-      <li><strong>Weather refund</strong><span>new date or your deposit back</span></li>
-      <li><strong>Licenses included</strong><span>plus rods, reels, tackle &amp; bait</span></li>
-    </ul>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">Our charters</p>
+    <p class="eyebrow">Tampa Bay fishing charters</p>
     <h2>Pick the kind of day you want</h2>
-    <div class="cards">
-    {% for t in trips %}
-      <article class="card">
-        <div class="card-media"><img src="/images/{{ t.img }}.webp" alt="{{ t.alt }}" loading="lazy" width="1400" height="1050"><span class="price-tag">From {{ t.from }}</span></div>
-        <div class="card-body">
-          <h3>{{ t.name }} fishing charters</h3>
-          <p>{{ t.line }}</p>
-          <a class="more stretched" href="{{ t.url }}">{{ t.name }} trip details <span aria-hidden="true">→</span></a>
-        </div>
-      </article>
-    {% endfor %}
+    <p class="sub-lead">Every price is per boat, not per person, and includes your captain, gear, bait and fishing licenses.</p>
+    <div class="trip-grid-cards">
+    {% for t in trips %}{% if t.group == "water" %}{% include "trip-card.njk" %}{% endif %}{% endfor %}
     </div>
-    <div class="chips"><p>After one fish in particular?</p>
-      <a class="chip" href="/redfish/">Redfish</a><a class="chip" href="/snook/">Snook</a><a class="chip" href="/tarpon/">Tarpon</a><a class="chip" href="/grouper/">Grouper</a><a class="chip" href="/shark/">Shark</a>
+    <div class="species-row">
+      <p>After one fish in particular?</p>
+      <ul>{% for t in trips %}{% if t.group == "fish" %}<li><a href="{{ t.url }}"><strong>{{ t.name }}</strong><span>from {{ t.from }}</span></a></li>{% endif %}{% endfor %}</ul>
     </div>
   </div>
 </section>
 
-<section class="band-navy section has-wave">
-  <svg class="wave wave-navy" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C180 48 360 48 540 30S900 0 1080 12s270 30 360 24V48H0z"/></svg>
-  <div class="wrap">
-    <div class="head-row">
-      <div><p class="eyebrow eyebrow-light">Prices</p><h2>Tampa Bay fishing charter prices</h2>
-      <p class="sub-lead" style="margin:0">Prices are per boat, not per person. Your captain, rods, reels, tackle, bait and <strong>fishing licenses</strong> are included.</p></div>
-      <a class="btn btn-accent" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+<section class="section section-light">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Seasons &amp; species</p>
+      <h2>What to Expect Fishing Tampa Bay</h2>
+      <div class="seasons">
+        <div class="season"><h3>Spring</h3><p>Kingfish move north past the mouth of the bay, with the run peaking in April and May. Snook open for harvest again in March and April.</p></div>
+        <div class="season"><h3>Summer</h3><p>Tarpon roll through the bay from May through August. By late summer, redfish start pushing in from the surrounding waters and the sharks stay busy.</p></div>
+        <div class="season"><h3>Fall</h3><p>Schools of mullet push along the shorelines on their way to the Gulf, and snook, redfish, tarpon and sharks follow them. Kings come back through in October and November.</p></div>
+        <div class="season"><h3>Winter</h3><p>Sheepshead stack up on reefs, rock piles, docks and bridge pilings, and the bottom fishing stays steady nearshore. It's also when the crappie bite on the lakes.</p></div>
+      </div>
     </div>
-    <div class="rate-wrap"><table class="rate">
-      <thead><tr><th scope="col">Trip</th><th scope="col">4 hours</th><th scope="col">6 hours</th><th scope="col">8 hours</th></tr></thead>
-      <tbody>{% for r in prices %}<tr><th scope="row">{{ r.trip }}</th><td>{{ r.h4 }}</td><td>{{ r.h6 }}</td><td>{{ r.h8 }}</td></tr>{% endfor %}</tbody>
-    </table></div>
-    <p style="margin:16px 0 0">Book more than one tarpon trip and save $50 on each. Gift cards in any amount work for any trip. <a href="{{ site.giftCards }}" style="color:#fff;font-weight:700">Buy a gift card</a></p>
+    <div>
+      <img src="/images/family-shark-bow.webp" alt="A family on the bow watching a shark come up to the boat" loading="lazy" width="1400" height="1040" class="first-img">
+      <h3 class="h3-lg">Your first fishing charter</h3>
+      <p>You don't need to know anything before you step on the boat. Your captain rigs the rods, picks the spot and talks you through the bite, the hookset and the fight. Kids are welcome, and inshore and crappie trips are the easiest place for young anglers to start.</p>
+    </div>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <div class="head-row"><div><p class="eyebrow">Your guides</p><h2>Meet our captains</h2></div><a class="link-arrow" href="/about/">All captain bios <span aria-hidden="true">→</span></a></div>
+    <div class="head-row"><div><p class="eyebrow">Your guides</p><h2>Meet Our Captains</h2></div><a class="link-arrow" href="/about/">All captain bios <span aria-hidden="true">→</span></a></div>
     <div class="captains">
       <div class="captain"><img src="/images/capt-ashmore.webp" alt="Capt. William Ashmore holding a redfish" loading="lazy" width="640" height="411">
         <h3>Capt. William "Dex" Ashmore</h3><p>Grew up in Florida and has fished Tampa Bay and Central Florida for more than 40 years. You may hear guests call him Dex.</p></div>
@@ -88,57 +87,75 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
   </div>
 </section>
 
-<section class="band-sand">
+<section class="section band-navy">
+  <div class="wrap included">
+    <div>
+      <p class="eyebrow eyebrow-light">One clear price</p>
+      <h2>What's Included in Every Trip</h2>
+      <p class="sub-lead">The price you see is per boat, and it covers everything you need to fish.</p>
+      <ul class="checks">
+        <li>Your captain and a private boat</li><li>Rods, reels and tackle</li><li>Bait</li><li>Fishing licenses for everyone on board</li><li>Bottled water and ice</li><li>Catch cleaned at the dock on offshore trips</li>
+      </ul>
+    </div>
+    <div class="included-side">
+      <div class="info-box"><h3>What to bring</h3><p>Food or snacks, any drinks besides water, sunglasses, sunblock and clothes for the weather.</p></div>
+      <div class="info-box"><h3>Booking &amp; weather</h3><p>A 10% deposit holds your date. If the weather turns, you get a new date or your deposit back. Gift cards in any amount work for any trip.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-light">
   <div class="wrap">
-    <p class="eyebrow">Reviews</p>
-    <h2 class="display-md">What our guests say</h2>
+    <div class="head-row"><div><p class="eyebrow">Reviews</p><h2>What Our Guests Say</h2></div><a class="link-arrow" href="/reviews/">Read more reviews <span aria-hidden="true">→</span></a></div>
     <div class="quotes">
     {% for r in reviews %}<blockquote class="quote"><p>"{{ r.quote }}"</p><footer>{{ r.name }}{% if r.note %}, {{ r.note }}{% endif %}</footer></blockquote>{% endfor %}
     </div>
-    <p style="margin:28px 0 0"><a class="link-arrow" href="/reviews/">Read more reviews <span aria-hidden="true">→</span></a></p>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap split">
-    <div>
-      <p class="eyebrow">Seasons</p>
-      <h2>Tampa Bay fishing through the year</h2>
-      <div class="seasons">
-      <div class="season"><h3>Spring</h3><p>Kingfish move north past the mouth of the bay, with the run peaking in April and May. Snook open for harvest again in March and April.</p></div>
-      <div class="season"><h3>Summer</h3><p>Tarpon roll through the bay from May through August. By late summer, redfish start pushing in from the surrounding waters and the sharks stay busy.</p></div>
-      <div class="season"><h3>Fall</h3><p>Schools of mullet push along the shorelines on their way to the Gulf, and snook, redfish, tarpon and sharks follow them. Kings come back through in October and November.</p></div>
-      <div class="season"><h3>Winter</h3><p>Sheepshead stack up on reefs, rock piles, docks and bridge pilings, and the bottom fishing stays steady nearshore. It's also when the crappie bite on the lakes.</p></div>
-      </div>
-    </div>
-    <div>
-      <img src="/images/family-shark-bow.webp" alt="A family on the bow watching a shark come up to the boat" loading="lazy" width="1400" height="1040" class="first-img">
-      <p class="eyebrow" style="margin-top:32px">New to fishing?</p>
-      <h2>Your first fishing charter</h2>
-      <p>You don't need to know anything before you step on the boat. Your captain rigs the rods, picks the spot and talks you through the bite, the hookset and the fight. Kids are welcome, and inshore and crappie trips are the easiest place for young anglers to start.</p>
-      <p>We bring bottled water and ice. You bring food, other drinks, sunglasses, sunblock and clothes for the weather.</p>
+  <div class="wrap">
+    <div class="head-row"><div><p class="eyebrow">Gallery</p><h2>A Look at a Day on Tampa Bay</h2></div><a class="btn btn-outline" href="/gallery/">View the Gallery</a></div>
+    <div class="gallery-teaser">
+      <img src="/images/two-anglers-redfish.webp" alt="Two anglers holding redfish" loading="lazy" width="1400" height="1050">
+      <img src="/images/shark-boatside.webp" alt="Guest beside a shark at the boat" loading="lazy" width="1400" height="1050">
+      <img src="/images/offshore-snapper-grouper-deck.webp" alt="Snapper and grouper on the deck" loading="lazy" width="1400" height="997">
+      <img src="/images/gator-trout.webp" alt="Angler with a big speckled trout" loading="lazy" width="911" height="1010">
+      <img src="/images/wapiti-veterans-dock.webp" alt="Combat veterans on the dock after their trip" loading="lazy" width="1400" height="1029">
+      <img src="/images/tripletail.webp" alt="Angler holding a tripletail" loading="lazy" width="1139" height="1400">
     </div>
   </div>
 </section>
 
-<section class="band-navy section has-wave" id="areas">
-  <svg class="wave wave-navy" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C180 48 360 48 540 30S900 0 1080 12s270 30 360 24V48H0z"/></svg>
+<section class="section section-light">
+  <div class="wrap split split-center">
+    <img class="first-img" src="/images/charter-boat-dock.webp" alt="Charter boat tied up at the dock on Tampa Bay" loading="lazy" width="1400" height="1050">
+    <div>
+      <p class="eyebrow">Our boats</p>
+      <h2>Comfortable Boats Rigged for Tampa Bay</h2>
+      <p>[BOAT DETAILS: name, make, model, length and engine for each captain's boat, plus shade, seating and anything that makes the ride comfortable]</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="areas">
   <div class="wrap">
-    <p class="eyebrow eyebrow-light">Areas we fish</p>
-    <h2 class="display-md">Where we fish</h2>
-    <p class="sub-lead" style="font-size:19px;max-width:700px">Our boats launch from marinas around metro Tampa and fish the whole bay, from Apollo Beach on the east shore to St. Petersburg and Anna Maria near the mouth, out into the Gulf and inland to the lakes south of Orlando.</p>
+    <p class="eyebrow">Departure &amp; location</p>
+    <h2>Where We Fish and Where Trips Leave From</h2>
+    <p class="sub-lead">Our boats launch from marinas around metro Tampa and fish the whole bay, from Apollo Beach on the east shore to St. Petersburg and Anna Maria near the mouth, out into the Gulf and inland to the lakes south of Orlando.</p>
     <div class="areas">
-      <a class="area" href="/tampa-bay-fishing/"><strong>Tampa Bay</strong><span>The whole bay, flats to channels</span><span class="area-go" aria-hidden="true">→</span></a>
-      <a class="area" href="/apollo-beach-fishing/"><strong>Apollo Beach</strong><span>The east side of the bay</span><span class="area-go" aria-hidden="true">→</span></a>
-      <a class="area" href="/st-petersburg-fishing/"><strong>St. Petersburg</strong><span>Lower bay and the beaches</span><span class="area-go" aria-hidden="true">→</span></a>
-      <a class="area" href="/anna-maria-fishing/"><strong>Anna Maria</strong><span>The mouth of the bay</span><span class="area-go" aria-hidden="true">→</span></a>
+      <a class="area" href="/tampa-bay-fishing/"><strong>Tampa Bay</strong><span>The whole bay, flats to channels</span></a>
+      <a class="area" href="/apollo-beach-fishing/"><strong>Apollo Beach</strong><span>The east side of the bay</span></a>
+      <a class="area" href="/st-petersburg-fishing/"><strong>St. Petersburg</strong><span>Lower bay and the beaches</span></a>
+      <a class="area" href="/anna-maria-fishing/"><strong>Anna Maria</strong><span>The mouth of the bay</span></a>
     </div>
+    <p class="depart-note"><strong>Departure points:</strong> [DEPARTURE MARINAS] Crappie trips launch from whichever lake the fish are on that week.</p>
   </div>
 </section>
 
-<section class="section">
+<section class="section section-light">
   <div class="wrap">
-    <div class="head-row"><div><p class="eyebrow">Fishing reports</p><h2>Latest from the water</h2></div><a class="link-arrow" href="/fishing-reports/">All fishing reports <span aria-hidden="true">→</span></a></div>
+    <div class="head-row"><div><p class="eyebrow">Fishing reports</p><h2>Latest From the Water</h2></div><a class="link-arrow" href="/fishing-reports/">All fishing reports <span aria-hidden="true">→</span></a></div>
     <div class="reports">
     {% for r in collections.reports | head(3) %}
       <a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
