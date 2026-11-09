@@ -151,3 +151,5 @@ form .check input{width:auto;margin-top:4px}
 .footer-grid ul{list-style:none;margin:0;padding:0;line-height:2}
 .foot-head{font-weight:700;margin:0 0 8px}
 .footer-base{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding-top:18px;padding-bottom:28px;border-top:1px solid var(--rule);font-size:14px}
+@media (min-width:1181px){.header-row{flex-wrap:nowrap}.main-nav a{font-size:14.5px}}
+@media (min-width:1181px) and (max-width:1380px){.header-phone{display:none}}
