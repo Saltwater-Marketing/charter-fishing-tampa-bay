@@ -10,15 +10,17 @@ heroAlt: Snapper and grouper on the deck after an offshore trip in September
 ---
 Two weeks into gag season, the gag grouper bite inside Tampa Bay was still hot on live pinfish and grunts. The season opened September 1 and runs through the 30th, and the start was steady and consistent.
 
-That was the biggest change from August, but not the only one.
+That was the biggest change from August, and three more came with it.
 
 ## New this month
 
-**Gag grouper.** The opener everyone waited for all summer. Gags were the main focus inside the bay for the first half of the month. See [grouper trips](/grouper/).
+**Gag grouper.** The opener Tampa Bay waits all summer for. Gags were the main focus inside the bay for the first half of the month, and our captains called the season "a great run" when it closed. See [grouper trips](/grouper/).
 
 **Tripletail.** By the first week of September the tripletail bite was on. They hold around crab trap buoys, channel markers and floating debris, sitting up near the surface in the shade of whatever is floating. They fight hard all the way to the boat and eat well. To keep one, it has to measure at least 18 inches.
 
-**Snook harvest.** Snook season opened, and the bite was strong. See [snook trips](/snook/).
+**Snook harvest.** The fall snook window opened September 1 and runs through November 30, one fish per person between 28 and 33 inches. The bite was strong. See [snook trips](/snook/).
+
+**Redfish schools.** The reds that were building in [August](/fishing-reports/august-2026-fishing-roundup-tampa-bay/) arrived as schools pushing into the bay, gearing up for Red October.
 
 ## Still going strong
 
@@ -30,14 +32,12 @@ That was the biggest change from August, but not the only one.
 
 **Sharks.** The smaller sharks stayed active after a good August.
 
-**Redfish.** Schools of reds kept pushing into the bay, gearing up for Red October.
-
 ## Offshore, when the Gulf allowed
 
 Whenever the weather let the boats reach the right structure, red grouper and red snapper were hungry. Mangrove, lane and vermilion snapper cooperated too, which gives an offshore day options when one species is slow.
 
-These trips depend on the weather, and our captains call it straight when it isn't safe or worth running. See [offshore trips](/offshore-fishing/).
+Offshore trips start past the nine mile line with Capt. Ashmore, six or eight hours from $950, and our captains call it straight when it isn't safe or worth running. See [offshore trips](/offshore-fishing/).
 
 ## One trip we'll remember
 
-On September 11, our captains took a group of combat veterans out with Wapiti Combat Veterans Foundation, and they caught plenty of grouper and tripletail. [Read about that day](/fishing-reports/grouper-tripletail-wapiti-combat-veterans-september-2026/).
+On September 11, our captains took a group of combat veterans out with Wapiti Combat Veterans Foundation, and they caught plenty of grouper and tripletail. At the end of the day the foundation gave our captains a coin, and a veteran's wife gave them a key ring she'd made by hand. [Read about that day](/fishing-reports/grouper-tripletail-wapiti-combat-veterans-september-2026/).
