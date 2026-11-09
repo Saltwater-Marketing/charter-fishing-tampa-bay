@@ -14,32 +14,31 @@ ctaHeading: "Ready to write the next one?"
 
 <section class="page-hero rv-hero" style="--hero:url(/images/two-anglers-redfish.webp)">
   <div class="wrap">
-    <h1>133 Five Star Google Reviews, Four Captains</h1>
-    <p class="lead">Our guides each run their own boat and their own business, so their reviews live on five separate Google profiles instead of one. Here they are side by side, word for word.</p>
+    <h1>133 Five Star Google Reviews</h1>
+    <p class="lead">That's what guests have left for our crew on Google. Here's what they keep saying, word for word.</p>
   </div>
 </section>
 
 <section class="section rv-platforms-wrap">
   <div class="wrap">
     <div class="rv-platforms">
-      <div class="rv-pf rv-pf-main">{{ G | safe }}<div><p class="rv-pf-name">Google</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count"><strong>133</strong> reviews across 5 profiles</p></div></div>
+      <div class="rv-pf rv-pf-main">{{ G | safe }}<div><p class="rv-pf-name">Google</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count"><strong>133</strong> five star reviews</p></div></div>
       <div class="rv-pf">{{ FB | safe }}<div><p class="rv-pf-name">Facebook</p><p class="rv-pf-score">Recommended</p><p class="rv-pf-count">Charter Fishing Tampa Bay page</p></div></div>
-      <div class="rv-pf">{{ CE | safe }}<div><p class="rv-pf-name">Captain Experiences</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count">Verified review, Capt. Gonzalez</p></div></div>
-      <div class="rv-pf">{{ FBK | safe }}<div><p class="rv-pf-name">FishingBooker</p><p class="rv-pf-score">Listed</p><p class="rv-pf-count">Capt. Pruner, new listing</p></div></div>
+      <div class="rv-pf">{{ CE | safe }}<div><p class="rv-pf-name">Captain Experiences</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count">Verified guest review</p></div></div>
+      <div class="rv-pf">{{ FBK | safe }}<div><p class="rv-pf-name">FishingBooker</p><p class="rv-pf-score">Listed</p><p class="rv-pf-count">New listing</p></div></div>
     </div>
 
     <div class="rv-split">
       <div>
-        <p class="eyebrow">Where the 133 come from</p>
-        <h2>One brand, five Google profiles</h2>
-        <p>Each captain built his reviews under his own business name. Added up, that's 133 Google reviews, and every profile holds a 5.0 rating. Counts as of November 2026.</p>
+        <p class="eyebrow">What guests keep saying</p>
+        <h2>One crew, 133 five star reviews</h2>
+        <p>Google only lets us read part of those 133 reviews from outside an account. Here's what comes up again and again in the {{ allReviews | length }} we could read in full.</p>
       </div>
       <ul class="rv-bars">
-        <li style="--w:100%"><span class="rv-bar-label">Gatorbacks Fishing Charters <em>Capt. Ashmore</em></span><span class="rv-bar"><span></span></span><strong>68</strong></li>
-        <li style="--w:54%"><span class="rv-bar-label">FG Charters <em>Capt. Gonzalez</em></span><span class="rv-bar"><span></span></span><strong>37</strong></li>
-        <li style="--w:18%"><span class="rv-bar-label">Charter Fishing Tampa Bay <em>All captains</em></span><span class="rv-bar"><span></span></span><strong>12</strong></li>
-        <li style="--w:15%"><span class="rv-bar-label">Barotrauma Fishing Charters <em>Capt. Hahn</em></span><span class="rv-bar"><span></span></span><strong>10</strong></li>
-        <li style="--w:9%"><span class="rv-bar-label">Hooked On Tampa Bay <em>Capt. Pruner</em></span><span class="rv-bar"><span></span></span><strong>6</strong></li>
+        {% set rn = allReviews | length %}
+        {% for t in [["fish","The captain put us on fish"],["knowledge","Knows the water and how to fish it"],["family","Great with families and kids"],["back","We're coming back"],["table","Brought fish home for dinner"]] %}{% set c = allReviews | tagCount(t[0]) %}
+        <li style="--w:{{ (c / rn * 100) | round }}%"><span class="rv-bar-label">{{ t[1] }}</span><span class="rv-bar"><span></span></span><strong>{{ c }} <small>of {{ rn }}</small></strong></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
@@ -62,20 +61,21 @@ ctaHeading: "Ready to write the next one?"
 
 <section class="section">
   <div class="wrap">
-    <div class="head-row"><div><p class="eyebrow">The review wall</p><h2>Every review we could find, word for word</h2></div></div>
-    <div class="rv-filters" role="group" aria-label="Filter reviews by captain">
-      <button type="button" class="rv-chip is-on" data-f="all">All</button>
-      <button type="button" class="rv-chip" data-f="gonzalez">Capt. Gonzalez</button>
-      <button type="button" class="rv-chip" data-f="ashmore">Capt. Ashmore</button>
-      <button type="button" class="rv-chip" data-f="hahn">Capt. Hahn</button>
-      <button type="button" class="rv-chip" data-f="cftb">Charter Fishing Tampa Bay</button>
+    <div class="head-row"><div><p class="eyebrow">The review wall</p><h2>Read them for yourself</h2></div></div>
+    <div class="rv-filters" role="group" aria-label="Filter reviews by topic">
+      <button type="button" class="rv-chip is-on" data-f="all">All reviews</button>
+      <button type="button" class="rv-chip" data-f="fish">Lots of fish</button>
+      <button type="button" class="rv-chip" data-f="family">Families and kids</button>
+      <button type="button" class="rv-chip" data-f="knowledge">Know the water</button>
+      <button type="button" class="rv-chip" data-f="table">Fish for dinner</button>
+      <button type="button" class="rv-chip" data-f="back">Coming back</button>
     </div>
     <div class="rv-wall">
     {% for r in allReviews %}
-      <figure class="rv-card" data-c="{{ r.captain }}">
+      <figure class="rv-card" data-t=" {{ r.tags | join(' ') }} ">
         <div class="rv-card-top">{% if r.platform == "google" %}{{ G | safe }}{% elif r.platform == "facebook" %}{{ FB | safe }}{% elif r.platform == "captainexperiences" %}{{ CE | safe }}{% else %}{{ WEB | safe }}{% endif %}{{ STARS | safe }}</div>
         <blockquote>"{{ r.quote }}"</blockquote>
-        <figcaption><strong>{{ r.name }}</strong>{% if r.date %} · {{ r.date }}{% endif %}<span class="rv-tag">{{ r.captainLabel }}</span></figcaption>
+        <figcaption><strong>{{ r.name }}</strong>{% if r.date %} · {{ r.date }}{% endif %}</figcaption>
       </figure>
     {% endfor %}
     </div>
@@ -84,5 +84,5 @@ ctaHeading: "Ready to write the next one?"
 </section>
 <script>
 (function(){var chips=document.querySelectorAll('.rv-chip'),cards=document.querySelectorAll('.rv-card');
-chips.forEach(function(b){b.addEventListener('click',function(){chips.forEach(function(x){x.classList.toggle('is-on',x===b)});var f=b.getAttribute('data-f');cards.forEach(function(c){c.hidden=!(f==='all'||c.getAttribute('data-c')===f)})})});})();
+chips.forEach(function(b){b.addEventListener('click',function(){chips.forEach(function(x){x.classList.toggle('is-on',x===b)});var f=b.getAttribute('data-f');cards.forEach(function(c){c.hidden=!(f==='all'||c.getAttribute('data-t').indexOf(' '+f+' ')>-1)})})});})();
 </script>

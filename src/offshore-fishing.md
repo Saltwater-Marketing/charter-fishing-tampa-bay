@@ -23,7 +23,7 @@ bring: Food, drinks other than water, polarized sunglasses, sun protective cloth
 
 Most of an offshore day is spent on the bottom. Your captain drops baits 40 to 100 feet or more onto wrecks, reefs and ledges, using live bait, cut bait and jigs.
 
-The Gatorbacks trip description puts it this way: "All your favorite bottom fish and we are always looking for those pelagics as well." Pelagics are the fish that roam the water above the bottom, like kingfish and cobia.
+Capt. Ashmore's trip notes put it this way: "All your favorite bottom fish and we are always looking for those pelagics as well." Pelagics are the fish that roam the water above the bottom, like kingfish and cobia.
 
 ## What came over the rail this year
 
