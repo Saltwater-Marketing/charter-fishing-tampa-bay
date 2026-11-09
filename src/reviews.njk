@@ -22,24 +22,37 @@ ctaHeading: "Ready to write the next one?"
 <section class="section rv-platforms-wrap">
   <div class="wrap">
     <div class="rv-platforms">
-      <div class="rv-pf rv-pf-main">{{ G | safe }}<div><p class="rv-pf-name">Google</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count"><strong>133</strong> five star reviews</p></div></div>
-      <div class="rv-pf">{{ FB | safe }}<div><p class="rv-pf-name">Facebook</p><p class="rv-pf-score">Recommended</p><p class="rv-pf-count">Charter Fishing Tampa Bay page</p></div></div>
-      <div class="rv-pf">{{ CE | safe }}<div><p class="rv-pf-name">Captain Experiences</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count">Verified guest review</p></div></div>
-      <div class="rv-pf">{{ FBK | safe }}<div><p class="rv-pf-name">FishingBooker</p><p class="rv-pf-score">Listed</p><p class="rv-pf-count">New listing</p></div></div>
+      <div class="rv-pf rv-pf-main">{{ G | safe }}<div><p class="rv-pf-name">Google</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p><p class="rv-pf-count"><strong>133</strong> reviews</p></div></div>
+      <div class="rv-pf">{{ FB | safe }}<div><p class="rv-pf-name">Facebook</p><p class="rv-pf-score">Recommended</p></div></div>
+      <div class="rv-pf">{{ CE | safe }}<div><p class="rv-pf-name">Captain Experiences</p><p class="rv-pf-score">5.0 {{ STARS | safe }}</p></div></div>
+      <div class="rv-pf">{{ FBK | safe }}<div><p class="rv-pf-name">FishingBooker</p></div></div>
     </div>
 
     <div class="rv-split">
-      <div>
-        <p class="eyebrow">What guests keep saying</p>
-        <h2>One crew, 133 five star reviews</h2>
-        <p>Google only lets us read part of those 133 reviews from outside an account. Here's what comes up again and again in the {{ allReviews | length }} we could read in full.</p>
+      <div class="rv-score">
+        <p class="eyebrow">One crew</p>
+        <p class="rv-big">5.0</p>
+        <p class="rv-big-stars" aria-label="5 out of 5 stars">★★★★★</p>
+        <p class="rv-big-sub"><strong>133</strong> five star Google reviews</p>
+        <p>Every one of our captains holds a perfect 5.0 on Google.</p>
       </div>
-      <ul class="rv-bars">
-        {% set rn = allReviews | length %}
-        {% for t in [["fish","The captain put us on fish"],["knowledge","Knows the water and how to fish it"],["family","Great with families and kids"],["back","We're coming back"],["table","Brought fish home for dinner"]] %}{% set c = allReviews | tagCount(t[0]) %}
-        <li style="--w:{{ (c / rn * 100) | round }}%"><span class="rv-bar-label">{{ t[1] }}</span><span class="rv-bar"><span></span></span><strong>{{ c }} <small>of {{ rn }}</small></strong></li>
-        {% endfor %}
-      </ul>
+      <div>
+        <h2>In their words</h2>
+        <ul class="rv-praise">
+          <li>"Knows the bay like the back of his hand"</li>
+          <li>"Putting us on the fish all day long"</li>
+          <li>"Best Captain on the Bay"</li>
+          <li>"Fish on every stop"</li>
+          <li>"Great with kids"</li>
+          <li>"Non-stop action"</li>
+          <li>"Dialed in on the fish"</li>
+          <li>"Calm cool demeanor"</li>
+          <li>"Filling our freezer"</li>
+          <li>"Knew exactly where to go"</li>
+          <li>"Hands down the best fishing charter"</li>
+          <li>"Lots of lip rippin"</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -79,7 +92,7 @@ ctaHeading: "Ready to write the next one?"
       </figure>
     {% endfor %}
     </div>
-    <p class="rv-note">Reviews appear as written, typos included. Google only shows part of each profile to visitors who aren't signed in, so these are the ones we could read; the counts above are the full totals. Meet the captains on <a href="/about/">Our Captains</a>, see photos in the <a href="/gallery/">gallery</a>, or compare trips on the <a href="/charters/">charters page</a>.</p>
+    <p class="rv-note">Reviews appear as written, typos and all. Meet the crew on <a href="/about/">Our Captains</a>, see photos in the <a href="/gallery/">gallery</a>, or compare trips on the <a href="/charters/">charters page</a>.</p>
   </div>
 </section>
 <script>
