@@ -371,3 +371,8 @@ form .check input{width:auto;margin-top:4px}
 @media (max-width:600px){.rv-big{font-size:72px}.rv-praise li{font-size:15px;padding:8px 14px}}
 .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 .prose img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:var(--radius);margin:4px 0 18px}
+.report-photos{margin:18px 0 26px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.report-photos img{width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:10px;margin:0;max-height:none}
+.report-photos figcaption{grid-column:1/-1;font-size:15px;margin-top:2px}
+@media (max-width:560px){.report-photos{gap:6px}}
+.post-img{object-position:center 35%}

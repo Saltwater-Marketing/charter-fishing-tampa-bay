@@ -5,8 +5,8 @@ h1: "October 2026 Fishing Roundup — Tampa Bay, FL"
 description: "Gag season closed, so October 2026 on Tampa Bay turned to trout, Spanish mackerel and redfish on the flats, with hogfish offshore. What to book and why."
 date: 2026-10-31
 permalink: /fishing-reports/october-2026-fishing-roundup-tampa-bay/
-heroImg: grouper-tampa-bay
-heroAlt: Angler holding a grouper on Tampa Bay
+heroImg: report-2026-10-hogfish-1
+heroAlt: Smiling angler holding a hogfish caught on an October trip
 ---
 Gag grouper season closed on September 30 after what our captains called "a great run." October trips turned back to the bay: speckled trout and Spanish mackerel arrived right on schedule, and redfish were plentiful on the flats and along the mangrove tree lines.
 
@@ -17,6 +17,8 @@ Here's October, answered as the questions you'd ask before booking a fall trip.
 **Speckled trout and Spanish mackerel.** Both showed up inside the bay on time and gave steady, fun action. They live in the same water, so one [inshore trip](/inshore/) covers both.
 
 **Redfish.** Plentiful on the flats and along the mangrove tree lines. Reds are open all year in Tampa Bay with an 18 to 27 inch slot, so a fish in that range can go home for dinner.
+
+<figure class="report-photos"><img src="/images/report-2026-10-trout-1.webp" alt="Cooler full of speckled trout" loading="lazy" width="1200" height="1600"><img src="/images/report-2026-10-spanish-mackerel-2.webp" alt="Five anglers on the dock behind a cleaning table full of Spanish mackerel" loading="lazy" width="1200" height="1600"><img src="/images/report-2026-10-redfish-1.webp" alt="Angler lifting a redfish in front of the mangroves" loading="lazy" width="1200" height="1600"><figcaption>October inside the bay: a cooler of trout, a table full of Spanish mackerel, and a redfish.</figcaption></figure>
 
 ## Where did all the redfish come from?
 
@@ -31,6 +33,8 @@ Gags are, until the next Gulf season opens. Red grouper are a different story. T
 ## Can we fish for hogfish?
 
 Yes. Hogfish, also called hog snapper, are back on the menu now through the winter and spring. They come up on offshore bottom trips, where the boat drops baits 40 to 100 feet onto Gulf wrecks and ledges; in January they were part of the offshore mixed bags. Capt. Ashmore runs our offshore trips past the nine mile line.
+
+<figure class="report-photos"><img src="/images/report-2026-10-hogfish-4.webp" alt="Angler fist pumping with a hogfish" loading="lazy" width="1200" height="1600"><img src="/images/report-2026-10-hogfish-5.webp" alt="Boy holding a hogfish" loading="lazy" width="1200" height="1600"><img src="/images/report-2026-10-hogfish-2.webp" alt="Angler holding a hogfish on a center console" loading="lazy" width="1200" height="1600"><figcaption>Hogfish from our October trips.</figcaption></figure>
 
 ## Which trip should I book?
 
