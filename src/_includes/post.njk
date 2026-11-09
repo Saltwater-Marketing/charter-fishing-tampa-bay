@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article>
-<section class="page-hero">
+<section class="page-hero"{% if heroImg %} style="--hero:url(/images/{{ heroImg }}.webp)"{% endif %}>
   <div class="wrap">
     <p class="crumbs"><a href="/">Home</a> / <a href="{{ parentUrl or '/fishing-reports/' }}">{{ parentLabel or "Fishing Reports" }}</a></p>
     <h1>{{ h1 or title }}</h1>

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 ---
-<section class="page-hero">
+<section class="page-hero"{% if heroImg %} style="--hero:url(/images/{{ heroImg }}.webp)"{% endif %}>
   <div class="wrap">
     <h1>{{ h1 or title }}</h1>
     {% if intro %}<p class="lead">{{ intro }}</p>{% endif %}

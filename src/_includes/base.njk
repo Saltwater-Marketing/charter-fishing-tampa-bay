@@ -11,45 +11,53 @@
 <meta property="og:title" content="{{ seoTitle or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-{% if heroImg %}<meta property="og:image" content="{{ site.url }}/images/{{ heroImg }}.webp">{% endif %}
+<meta property="og:image" content="{{ site.url }}/images/{{ heroImg or 'grouper-tampa-bay' }}.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;600;700&display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" type="image/png" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<meta name="theme-color" content="#12304B">
 {% if site.gtm %}<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ site.gtm }}');</script>{% endif %}
 {% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
 </head>
 <body>
+{% if site.gtm %}<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{% endif %}
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header{% if homeHero %} is-overlay{% endif %}">
   <div class="wrap header-row">
-    <a class="wordmark" href="/">Charter Fishing Tampa Bay</a>
+    <a class="brand" href="/" aria-label="Charter Fishing Tampa Bay, home"><img src="/images/logo.webp" alt="Charter Fishing Tampa Bay logo" width="320" height="292"></a>
     <nav class="main-nav" aria-label="Main">
       <ul>
       {% for item in site.nav %}
         <li class="{% if item.children %}has-sub{% endif %}">
-          <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+          <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}{% if item.children %}<svg class="caret" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>{% endif %}</a>
           {% if item.children %}<ul class="sub">{% for c in item.children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>{% endif %}
         </li>
       {% endfor %}
       </ul>
     </nav>
     <div class="header-cta">
-      <a class="header-phone" href="tel:{{ site.tel }}">{{ site.phone }}</a>
-      <a class="btn btn-accent" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+      <a class="header-phone" href="tel:{{ site.tel }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg><span>{{ site.phone }}</span></a>
+      <a class="btn btn-accent header-book" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+      <details class="mobile-nav">
+        <summary aria-label="Open menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span><span class="menu-label">Menu</span></summary>
+        <div class="mobile-panel">
+          <ul>
+          {% for item in site.nav %}<li><a href="{{ item.url }}">{{ item.label }}</a>{% if item.children %}<ul>{% for c in item.children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}
+          </ul>
+          <div class="mobile-actions"><a class="btn btn-accent btn-block" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a><a class="btn btn-ghost btn-block" href="tel:{{ site.tel }}">Call {{ site.phone }}</a></div>
+        </div>
+      </details>
     </div>
-    <details class="mobile-nav">
-      <summary>Menu</summary>
-      <ul>
-      {% for item in site.nav %}<li><a href="{{ item.url }}">{{ item.label }}</a>{% if item.children %}<ul>{% for c in item.children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}
-      </ul>
-    </details>
   </div>
 </header>
 <main id="main">
 {{ content | safe }}
 </main>
 <section class="band-accent">
+  <svg class="wave wave-accent" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 24C180 48 360 48 540 30S900 0 1080 12s270 30 360 24V48H0z"/></svg>
   <div class="wrap cta-row">
     <div>
       <h2 class="display-md">{{ ctaHeading or "Hold your date" }}</h2>
@@ -61,7 +69,7 @@
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <p class="wordmark">Charter Fishing Tampa Bay</p>
+      <img class="footer-logo" src="/images/logo.webp" alt="Charter Fishing Tampa Bay logo" width="320" height="292" loading="lazy">
       <p>Inshore, nearshore, offshore and crappie fishing charters, launching from marinas around metro Tampa.</p>
     </div>
     <div>
@@ -88,5 +96,6 @@
     <a href="https://www.saltwatermarketing.net/" target="_blank" rel="noopener">Website by Saltwater Marketing</a>
   </div>
 </footer>
+{% if site.chatWidget %}<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="{{ site.chatWidget }}" defer></script>{% endif %}
 </body>
 </html>

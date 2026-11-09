@@ -8,7 +8,8 @@
   "giftCards": "[GIFT CARD LINK]",
   "facebook": "https://www.facebook.com/charterfishingtampabay",
   "instagram": "https://www.instagram.com/charterfishingtampabay/",
-  "gtm": "",
+  "gtm": "GTM-K5TSZDZ4",
+  "chatWidget": "696c15999ec201356e07fb0e",
   "ga4": "",
   "nav": [
     { "label": "Charters", "url": "/charters/", "children": [
