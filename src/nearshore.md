@@ -1,86 +1,58 @@
 ---
 layout: trip.njk
 permalink: /nearshore/
-seoTitle: "Nearshore Fishing Trips | Charter Fishing Tampa Bay"
-description: "Nearshore fishing out of Tampa Bay for snapper, grouper, mackerel, kingfish & sheepshead. 6 hour trips $850, 8 hours $1,000. Call (813) 714-5670."
+seoTitle: "Nearshore Fishing Charters Out of Tampa Bay | CFTB"
+description: "Nearshore fishing from the mouth of Tampa Bay out to nine miles for snapper, grouper, sheepshead & kingfish. Up to 6 guests, 4 to 8 hours from $650."
 h1: Nearshore Fishing Charters Out of Tampa Bay
 crumb: Nearshore
 heroImg: sheepshead-nearshore
 heroAlt: Angler holding a big sheepshead caught on a nearshore trip
 opening:
-  - "The boat clears the beaches, the captain eases off the throttle over a patch of hard bottom, and the baits go down. Then it's a guessing game every drop: a mangrove snapper, a red grouper, a fat sheepshead, a grunt for the cooler."
-  - "In spring and fall, when the kingfish pass the mouth of the bay, a reel can start screaming before anyone sees it coming."
-rates: [["6 hours","$850"],["8 hours","$1,000"]]
-rateNote: Price per boat.
-guests: "[MAX GUESTS]"
-departs: "[MARINA]"
-included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice
-bring: Food, drinks, sunglasses, sunblock, a layer for the ride out on cool mornings
+  - "\"Caught a ton of grunts and some grouper,\" Dawn R. wrote after a day out with Capt. Gonzalez. Grunts and grouper are the core of nearshore bottom fishing: steady bites and fish for the cooler."
+  - "Nearshore covers the water from the mouth of Tampa Bay out to about nine miles, where the offshore trips pick up."
+rates: [["4 hours","$650"],["6 hours","$850"],["8 hours","$1,000"]]
+rateNote: Price per boat for up to 4 guests. 5th guest +$75, 6th +$150.
+captains: [["Capt. Pruner","pruner"],["Capt. Gonzalez","gonzalez"],["Capt. Ashmore","ashmore"]]
+guests: Up to 6
+departs: "Ruskin, at 611 Destiny Dr [CONFIRM for each captain]"
+times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 or 6 hours"
+included: Captain, rods, reels, tackle, bait and saltwater fishing licenses
+bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen, a layer for a cool morning ride
 ---
-## Nearshore fishing just past the Tampa Bay beaches
+## What comes up off nearshore bottom
 
-Nearshore trips run out of the bay to reefs, structure and open water a short way off the beach. You get the variety of the Gulf with a shorter ride than an offshore day, which means more time with a line in the water.
+The booking page lists the regulars: snapper, grouper, grunts, mackerel, kingfish and sheepshead. Bottom fishing for grouper and snapper is the core of the day.
 
-It's the trip for groups who want fish to take home. Snapper, grouper, sheepshead and kings are all good on the table.
+Capt. Gonzalez adds that on the same water "we can also run into blackfin tuna, king mackerel, cobia, and an occasional wahoo." Nobody books for the wahoo, but it happens.
 
-> "Been out multiple times and always have a cooler full of fish." Scott M.
+## Three seasons, three different trips
 
-## What you'll catch on a nearshore fishing charter
+**Winter.** January 2026 was steady on nearshore bottom: white grunt, mangrove snapper, red grouper and lots of sheepshead. Sheepshead stack on reefs, rock piles and bridge pilings, and shrimp on jigs was the go to bait. The [January 2026 roundup](/fishing-reports/january-2026-fishing-roundup-tampa-bay/) has the rest.
 
-### Snapper and grunts
+**Spring and fall.** Kingfish pass the mouth of the bay twice a year, peaking in April and May and again in October and November. Florida allows three per person, at least 24 inches to the fork.
 
-In January our captains reported mangrove snapper and white grunt coming up steadily on nearshore bottom. They're the fish that keep the rods bending between bigger bites.
+**Gag season.** In September 2026 the gag grouper bite inside the bay was hot on live pinfish and grunts. See [grouper trips](/grouper/) for how the season works.
 
-### Grouper
+## Nearshore or offshore?
 
-In January, red grouper were in the mix nearshore, and gags move closer to the bay in the cooler months. What you can keep depends on the season. [More on grouper trips](/grouper/)
+Nearshore runs are shorter, so more of your day is spent fishing. It's the better fit for kids, first timers and anyone who would rather keep the run short.
 
-### Sheepshead
+[Offshore trips](/offshore-fishing/) start at the nine mile state waters line, where the boat's federal permit opens up reef and pelagic fish farther out. If the Gulf is too rough for either, your captain will say so, and an [inshore trip](/inshore/) inside the bay is the usual backup.
 
-Winter is sheepshead time. They stack up on reefs, rock piles and pilings, and their clean, mild fillets make them one of the best eating fish around Tampa Bay.
+## Your captain
 
-### Kingfish
+Capt. Pruner, Capt. Gonzalez and Capt. Ashmore all run nearshore trips. Capt. Gonzalez fishes from the mouth of Tampa Bay out to nine miles on his 22 foot Pathfinder. Read about each of them on [Our Captains](/about/).
 
-Kings run past the mouth of the bay twice a year, peaking in April and May and again in October and November. They hit fast and run hard, and the first run off a good one is what people remember.
-
-## Nearshore fishing in Tampa Bay by season
-
-**Spring:** kingfish move north past the bay, peaking in April and May.
-
-**Summer:** steady snapper and bottom fishing when the Gulf lies down.
-
-**Fall:** kings come back through in October and November.
-
-**Winter:** sheepshead, snapper and red grouper on nearshore bottom.
-
-## How your nearshore fishing charter works
-
-### Before you go
-
-Reserve online with a 10% deposit. Nearshore trips only run when the Gulf cooperates, and your captain will call it straight if it looks rough. You get a new date or your deposit back.
-
-### On the water
-
-Your captain finds the bottom, sets up the rigs and tells you when to drop. If one spot goes quiet, you move.
-
-### Taking fish home
-
-Keep what's in season and within the limits. Your captain knows the current rules for every species you'll see.
-
-## Nearshore fishing charter questions
+## Nearshore questions
 
 ### Is it rough out there?
 
-It depends on the wind. Your captain watches the forecast and will tell you ahead of time if the Gulf side looks rough.
+It depends on the wind. Your captain watches the forecast and calls it straight before you leave the dock. A 10% deposit holds your date, and if conditions are unsafe you get a new date or your deposit back.
 
-### When is the best time for kingfish?
+### Is there a four hour nearshore trip?
 
-April and May, then October and November.
+Yes. Four hours is $650, six is $850 and eight is $1,000, for up to four guests.
 
-### Can kids come?
+### Can we keep what we catch?
 
-Yes, if they're up for a little more water than an inshore trip. The ride is shorter than offshore, which helps young anglers.
-
-### How many people can come?
-
-[MAX GUESTS]
+What's in season and inside the limits, yes. Your captain knows the current rules for every species that comes over the rail.

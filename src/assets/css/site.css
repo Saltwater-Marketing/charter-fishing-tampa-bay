@@ -289,3 +289,4 @@ form .check input{width:auto;margin-top:4px}
 .trip-guests{display:block;font-size:14px}
 .prose-wide{max-width:none}.prose-wide>p,.prose-wide>h2,.prose-wide>h3{max-width:780px}
 .welcome-lead{font-family:var(--display);font-weight:700;font-size:26px!important;line-height:1.2;color:var(--navy)}
+.details dd a{color:#fff;text-underline-offset:3px}.details dd a:hover{color:var(--accent)}

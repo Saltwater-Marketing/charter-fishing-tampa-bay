@@ -12,7 +12,7 @@ opening:
   - "Some drops it's a red snapper. Some drops it's a gag grouper that pulls like a truck. By the ride in, the fish box tells the story of the day."
 rates: [["6 hours","$950"],["8 hours","$1,150"]]
 rateNote: Price per boat, up to 4 guests.
-guests: Up to 4
+guests: "Up to 6 (5th guest +$75, 6th +$150)"
 departs: "Launch points around Tampa Bay [CONFIRM]"
 included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice, and your catch cleaned at the dock
 bring: Food, drinks, sunglasses, sunblock, seasickness medicine if you need it

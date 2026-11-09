@@ -12,7 +12,7 @@ opening:
   - "When it finally comes up beside the boat, the whole crew leans over the rail to see it."
 rates: [["4 hours","$600"],["6 hours","$800"],["8 hours","$1,000"]]
 rateNote: Price per boat.
-guests: "[MAX GUESTS]"
+guests: "Up to 6 (5th guest +$75, 6th +$150)"
 departs: "[MARINA]"
 included: Captain, heavy rods and reels, tackle, bait, fishing licenses, bottled water and ice
 bring: Food, drinks, sunglasses, sunblock

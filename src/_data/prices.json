@@ -1,9 +1,44 @@
 [
-  { "trip": "Inshore, redfish or snook", "h4": "$600", "h6": "$750", "h8": "$950" },
-  { "trip": "Shark", "h4": "$600", "h6": "$800", "h8": "$1,000" },
-  { "trip": "Grouper", "h4": "$650", "h6": "$800", "h8": "$1,000" },
-  { "trip": "Tarpon", "h4": "$650", "h6": "$900", "h8": "$1,150" },
-  { "trip": "Nearshore", "h4": "Not offered", "h6": "$850", "h8": "$1,000" },
-  { "trip": "Offshore, up to 4 guests", "h4": "Not offered", "h6": "$950", "h8": "$1,150" },
-  { "trip": "Crappie, up to 4 guests", "h4": "$550", "h6": "$650", "h8": "Not offered" }
+  {
+    "trip": "Inshore, redfish or snook",
+    "h4": "$600",
+    "h6": "$750",
+    "h8": "$950"
+  },
+  {
+    "trip": "Shark",
+    "h4": "$600",
+    "h6": "$800",
+    "h8": "$1,000"
+  },
+  {
+    "trip": "Grouper",
+    "h4": "$650",
+    "h6": "$800",
+    "h8": "$1,000"
+  },
+  {
+    "trip": "Tarpon",
+    "h4": "$650",
+    "h6": "$900",
+    "h8": "$1,150"
+  },
+  {
+    "trip": "Nearshore",
+    "h4": "$650",
+    "h6": "$850",
+    "h8": "$1,000"
+  },
+  {
+    "trip": "Offshore, up to 6 guests",
+    "h4": "Not offered",
+    "h6": "$950",
+    "h8": "$1,150"
+  },
+  {
+    "trip": "Crappie, up to 4 guests",
+    "h4": "$550",
+    "h6": "$650",
+    "h8": "Not offered"
+  }
 ]

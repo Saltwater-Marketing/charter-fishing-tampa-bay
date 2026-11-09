@@ -1,66 +1,58 @@
 ---
 layout: trip.njk
 permalink: /snook/
-seoTitle: "Snook Fishing Trips | Charter Fishing Tampa Bay"
-description: "Snook fishing in Tampa Bay along mangrove shorelines, grass flats & passes, catch & release all year. 4, 6 & 8 hour private trips from $600. Book now."
+seoTitle: "Snook Fishing Charters in Tampa Bay, FL | CFTB"
+description: "Tampa Bay snook charters in the mangroves, on the flats & under the docks. Catch & release all year, harvest spring & fall. Up to 3 guests, from $600."
 h1: Snook Fishing Charters in Tampa Bay
 crumb: Snook
 heroImg: snook-catch-wide
 heroAlt: Guest holding a snook in front of the mangroves
 opening:
-  - "The bait swings past the dock piling and disappears in a boil. The rod bends, the drag goes, and a snook comes clear of the water, gills flaring, trying to shake the hook."
-  - "That jump is why people come back for snook."
+  - "On a spring trip with Capt. Gonzalez, Dennis R. landed his first legal slot snook in seven years. He wrote that it came \"after getting tired of catching Redfish.\""
+  - "Snook make you work for it. They hit hard, jump, and head straight for the nearest root or piling."
 rates: [["4 hours","$600"],["6 hours","$750"],["8 hours","$950"]]
-rateNote: Price per boat.
-guests: "[MAX GUESTS]"
-departs: "[MARINA]"
-included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice
-bring: Food, drinks, sunglasses, sunblock
+rateNote: Price per boat for up to 3 guests.
+captains: [["Capt. Pruner","pruner"],["Capt. Gonzalez","gonzalez"],["Capt. Ashmore","ashmore"]]
+guests: Up to 3
+departs: "Ruskin, at 611 Destiny Dr [CONFIRM for each captain]"
+times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 or 6 hours"
+included: Captain, rods, reels, tackle, bait, saltwater fishing licenses and the snook permit
+bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen
 ---
-## Snook fishing in Tampa Bay, all year
+## Where snook live on Tampa Bay
 
-Snook live tight to cover: mangrove shorelines, docks, oyster bars, grass flats and passes. They ambush whatever the current brings them, so your captain fishes the edges where they hide.
+Our captains put it simply: snook are "in the bushes, on the flats, beaches and under the docks." They sit tight to cover and wait for the current to bring bait past.
 
-We fish them with live pilchards, shrimp and artificial lures, depending on what they want that day.
+That means casts close to mangrove roots and dock pilings. Snook trips are kept to three anglers so everyone has a clean shot.
 
-## Snook season in Tampa Bay
+## When you can keep one
 
-### Catch and release, every month
+Tampa Bay follows Florida's Gulf snook rules. Harvest is open March 1 to April 30 and September 1 to November 30, one fish per person between 28 and 33 inches total length.
 
-Snook trips run all year. Outside the harvest windows every snook goes back, which for most of our guests changes nothing, because the fight is the point.
+Keeping one takes a snook permit on top of a saltwater license. Both are covered on our boats.
 
-### When you can keep one
+The rest of the year is catch and release, and we run snook trips every month. Quick photos, a wet hand, and the fish swims off.
 
-Tampa Bay falls under Florida's Gulf snook rules, with harvest windows in the fall and spring, one fish per person inside a size slot. [RECHECK CURRENT FWC DATES AND SLOT BEFORE LAUNCH]
+## How this fall started
 
-### Fall is a strong stretch
+Two weeks into the fall harvest window in 2026, our report from inside the bay was short: "Snook season is open, and the bite is strong." The rest of that month is in the [September 2026 roundup](/fishing-reports/september-2026-fishing-roundup-tampa-bay/).
 
-As the water cools, snook work back into the bay and the backcountry, and the mullet run puts a lot of bait in front of them.
+## From the boat
 
-## How a snook trip plays out
+> "Captain was attentive and helpful and a hard worker . Captain worked hard to keep us on active fish." Jon L., 2026, with Capt. Gonzalez
 
-### Fishing the edges
+> "Extremely knowledgeable captain. We've been out multiple times with capt Frankie. He has us on our targeted species on every trip." Brooksville Logistics, April 2025
 
-Your captain puts the boat where the current pushes bait past cover and sets you up to cast tight to it.
+## Snook questions
 
-### Handling the fish
+### Which captain runs snook trips?
 
-Quick photos, a wet hand and a fast release, so the fish swims off strong.
+Capt. Pruner, Capt. Gonzalez or Capt. Ashmore. Each fishes the inshore water where snook live; read their stories on [Our Captains](/about/).
 
-### Other fish along the way
+### What if the snook won't bite?
 
-Redfish and trout share the same flats, so a slow snook bite rarely means a slow day. [See inshore trips](/inshore/)
+Redfish and trout share the same mangroves and flats. Your captain can switch to them, which is why many groups book a general [inshore trip](/inshore/) or a [redfish trip](/redfish/) instead.
 
-## Snook charter questions
+### Can we keep one?
 
-### Can we keep a snook?
-
-Only in season, inside the slot, one per person. The rest of the year it's catch and release.
-
-### Lures or live bait?
-
-Both. Your captain decides on the day.
-
-### Do we need a snook permit?
-
-No. Licenses and permits are covered for everyone on board.
+Only in an open window, inside the 28 to 33 inch slot, one per person.

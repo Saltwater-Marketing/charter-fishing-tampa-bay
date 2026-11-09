@@ -19,8 +19,11 @@ layout: base.njk
     <table><tbody>{% for r in rates %}<tr><th scope="row">{{ r[0] }}</th><td>{{ r[1] }}</td></tr>{% endfor %}</tbody></table>
     {% if rateNote %}<p class="small">{{ rateNote }}</p>{% endif %}
     <dl>
-      <dt>Guests</dt><dd>{{ guests }}</dd>
+{% if captains %}      <dt>Captains</dt><dd>{% for c in captains %}<a href="/about/#{{ c[1] }}">{{ c[0] }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd>
+{% endif %}      <dt>Guests</dt><dd>{{ guests }}</dd>
       <dt>Departs</dt><dd>{{ departs }}</dd>
+{% if times %}      <dt>Starts</dt><dd>{{ times }}</dd>
+{% endif %}
       <dt>Included</dt><dd>{{ included }}</dd>
       <dt>Bring</dt><dd>{{ bring }}</dd>
     </dl>

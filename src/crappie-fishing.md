@@ -14,8 +14,8 @@ rates: [["4 hours","$550"],["6 hours","$650"]]
 rateNote: Price per boat, up to 4 guests.
 guests: Up to 4
 departs: Varies by lake and where the fish are
-included: Captain, rods, reels, tackle, bait, cooler with ice, fishing licenses
-bring: Snacks, drinks, a hat, sunglasses, clothes for the weather
+included: Captain, rods, reels, tackle, bait, safety equipment, cooler with water and ice
+bring: Florida freshwater fishing license, snacks, drinks, a hat, sunglasses, clothes for the weather
 ---
 ## Crappie fishing on the lakes south of Orlando
 

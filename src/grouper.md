@@ -12,7 +12,7 @@ opening:
   - "That's gag grouper fishing, and when the season opened in September, our captains had them eating live pinfish and grunts day after day."
 rates: [["4 hours","$650"],["6 hours","$800"],["8 hours","$1,000"]]
 rateNote: Price per boat.
-guests: "[MAX GUESTS]"
+guests: "Up to 6 (5th guest +$75, 6th +$150)"
 departs: "[MARINA]"
 included: Captain, heavy rods and reels, tackle, bait, fishing licenses, bottled water and ice
 bring: Food, drinks, sunglasses, sunblock

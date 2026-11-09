@@ -17,7 +17,7 @@ intro: "Calm flats at sunrise, a cooler of snapper off Gulf bottom, a tarpon in 
 
 ## Every trip includes
 
-Your captain, rods, reels, tackle, bait and fishing licenses, plus bottled water and ice. Reserve with a 10% deposit, refunded if weather cancels the trip.
+Your captain, rods, reels, tackle and bait, plus bottled water and ice. Saltwater fishing licenses are covered; crappie anglers bring a Florida freshwater license. Reserve with a 10% deposit, refunded if weather cancels the trip.
 
 ## Where trips leave from
 

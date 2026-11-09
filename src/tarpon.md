@@ -12,7 +12,7 @@ opening:
   - "That's the silver king, and it comes through Tampa Bay every summer."
 rates: [["4 hours","$650"],["6 hours","$900"],["8 hours","$1,150"]]
 rateNote: Price per boat. Book more than one tarpon trip and save $50 on each.
-guests: "[MAX GUESTS]"
+guests: "Up to 4 (3rd guest +$75, 4th +$150)"
 departs: "[MARINA]"
 included: Captain, rods, reels, tackle, bait, fishing licenses, bottled water and ice
 bring: Food, drinks, sunglasses, sunblock

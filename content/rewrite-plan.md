@@ -39,13 +39,21 @@ Done Nov 9, 2026: https://docs.google.com/document/d/1lGBJOi5qnz047LnQC1prqeb2Y_
 
 Old Wix leftovers redirected: `/copy-of-about`, `/confirmation`, `/profile/*`.
 
+## Progress
+
+- Nov 9: Inshore, Redfish, Snook and Nearshore rewritten from the research (booking page facts, captains' listings, verbatim reviews, report facts). Corrected site wide: guest limits, nearshore from $650, offshore up to 6, crappie guests bring a freshwater license, "Gonzalez" spelling.
+- Review quotes in `src/_data/reviews.json` (Eric M., Scott M., Jeff T., Cody G., Caleb C.) don't trace to any source found so far; not used on rewritten pages until confirmed.
+- Next: Our Captains (with William/Gatorbacks), Home, Offshore, Crappie, Tarpon, Grouper, Shark, Where We Fish, FAQ, Reviews.
+
 ## Decided
+
+- Capt. Gavin O'Neal is no longer with CFTB (Andre, Nov 9, 2026). Remove him everywhere; don't use reviews that name him.
+- Google review counts (Andre, Nov 9): Charter Fishing Tampa Bay 12, Gatorbacks Fishing Charters (William Ashmore) 68, FG Charters (Frankie Gonzalez) 37, Barotrauma (Rob Hahn) 10, David Pruner 6. Total 133, plus FishingBooker reviews when found.
 
 - Capt. Rob Hahn is one of our captains (Andre, Nov 9, 2026). He also runs Barotrauma Fishing Charters; treat him the same as the other guides on the site.
 
 ## Open decisions
 
-- Capt. Gavin O'Neal: missing from the site; needs a bio and photo
 - Real numbers for "[95+] years" and the review count before either goes in copy
 - Marinas, guest limits and boat details per captain
 
