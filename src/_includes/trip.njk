@@ -1,0 +1,44 @@
+---
+layout: base.njk
+---
+<section class="trip-hero">
+  <img src="/images/{{ heroImg }}.webp" alt="{{ heroAlt }}" fetchpriority="high" width="1400" height="1050">
+  <div class="wrap trip-hero-inner">
+    <div class="trip-hero-card">
+      <p class="crumbs"><a href="/">Home</a> / <a href="/charters/">Charters</a> / {{ crumb }}</p>
+      <h1>{{ h1 }}</h1>
+    </div>
+  </div>
+</section>
+<div class="wrap trip-grid">
+  <div class="trip-open">
+    {% for p in opening %}<p class="lead">{{ p }}</p>{% endfor %}
+  </div>
+  <aside class="details" aria-label="Trip details">
+    <h2>Trip details</h2>
+    <table><tbody>{% for r in rates %}<tr><th scope="row">{{ r[0] }}</th><td>{{ r[1] }}</td></tr>{% endfor %}</tbody></table>
+    {% if rateNote %}<p class="small">{{ rateNote }}</p>{% endif %}
+    <dl>
+      <dt>Guests</dt><dd>{{ guests }}</dd>
+      <dt>Departs</dt><dd>{{ departs }}</dd>
+      <dt>Included</dt><dd>{{ included }}</dd>
+      <dt>Bring</dt><dd>{{ bring }}</dd>
+    </dl>
+    <a class="btn btn-accent btn-block" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+    <a class="btn btn-ghost btn-block" href="tel:{{ site.tel }}">Call {{ site.phone }}</a>
+    <p class="small">A 10% deposit holds your date.</p>
+  </aside>
+  <div class="trip-body prose">
+    {{ content | safe }}
+  </div>
+</div>
+<section class="band-water">
+  <div class="wrap">
+    <h2 class="display-md">More Tampa Bay fishing charters</h2>
+    <div class="mini-cards">
+    {% for t in trips %}{% if t.url != page.url %}
+      <a class="mini-card" href="{{ t.url }}"><img src="/images/{{ t.img }}.webp" alt="" loading="lazy" width="84" height="84"><span><strong>{{ t.name }}</strong><span>From {{ t.from }}</span></span></a>
+    {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>

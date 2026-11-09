@@ -1,0 +1,24 @@
+---
+layout: page.njk
+permalink: /contact-us/
+seoTitle: "Contact & Booking | Charter Fishing Tampa Bay"
+description: "Call (813) 714-5670 or send a message to book a Tampa Bay fishing charter. Tell us your date, group size & the trip you want and we'll get back to you."
+h1: Contact Us and Book Your Charter
+intro: "The fastest way to book is online or by phone. Have a question first? Send us your date, group size and the trip you're thinking about."
+---
+<p><strong>Phone:</strong> <a href="tel:{{ site.tel }}">{{ site.phone }}</a><br><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p><a href="{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a> · <a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></p>
+<p><strong>Departure points:</strong> [MARINAS AND MAP]</p>
+<form name="contact" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="company">
+  <p hidden><label>Leave blank <input name="company"></label></p>
+  <label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name">
+  <label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email">
+  <label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel">
+  <label class="check"><input type="checkbox" name="sms_consent" value="yes"> By checking this box, you agree to receive text messages from Charter Fishing Tampa Bay about your inquiry and booking. Message and data rates may apply. Reply STOP to opt out. [CONFIRM wording matches A2P registration]</label>
+  <label for="f-trip">Trip you want</label>
+  <select id="f-trip" name="trip"><option>Inshore</option><option>Nearshore</option><option>Offshore</option><option>Crappie</option><option>Redfish</option><option>Snook</option><option>Tarpon</option><option>Grouper</option><option>Shark</option><option>Not sure yet</option></select>
+  <label for="f-date">Date</label><input id="f-date" name="date" type="date">
+  <label for="f-guests">Number of guests</label><input id="f-guests" name="guests" type="number" min="1">
+  <label for="f-msg">Message</label><textarea id="f-msg" name="message" rows="5"></textarea>
+  <p><button class="btn btn-accent" type="submit">Send message</button></p>
+</form>

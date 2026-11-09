@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ h1 or title }}</h1>
+    {% if intro %}<p class="lead">{{ intro }}</p>{% endif %}
+  </div>
+</section>
+<div class="wrap prose-wrap"><div class="prose">
+{{ content | safe }}
+</div></div>

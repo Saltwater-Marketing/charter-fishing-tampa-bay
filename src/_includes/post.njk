@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+<article>
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / <a href="{{ parentUrl or '/fishing-reports/' }}">{{ parentLabel or "Fishing Reports" }}</a></p>
+    <h1>{{ h1 or title }}</h1>
+    {% if author %}<p class="byline">By {{ author }} · {{ date | monthYear }}</p>{% endif %}
+  </div>
+</section>
+<div class="wrap prose-wrap"><div class="prose">
+{% if heroImg %}<img class="post-img" src="/images/{{ heroImg }}.webp" alt="{{ heroAlt }}" width="1400" height="1000">{% endif %}
+{{ content | safe }}
+</div></div>
+</article>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ (h1 or title) | dump | safe }},"datePublished":"{{ date | isoDate }}","author":{"@type":"Person","name":{{ (author or "Charter Fishing Tampa Bay") | dump | safe }}},"publisher":{"@type":"Organization","name":"Charter Fishing Tampa Bay"}}</script>

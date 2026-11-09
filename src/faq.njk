@@ -1,0 +1,50 @@
+---
+layout: page.njk
+permalink: /faq/
+seoTitle: "Fishing Charter FAQ | Charter Fishing Tampa Bay"
+description: "Answers to common questions about booking a Tampa Bay fishing charter: prices, licenses, kids, weather, deposits & what to bring. Call (813) 714-5670."
+h1: Tampa Bay Fishing Charter FAQ
+intro: "The questions our guests ask most. Still have one? Call (813) 714-5670."
+faqs:
+  - group: Booking and prices
+    items:
+      - q: How much does a fishing charter cost?
+        a: "Crappie trips start at $550. Inshore, redfish, snook and shark trips start at $600. Grouper and tarpon start at $650, nearshore at $850 and offshore at $950. Price is per boat and depends on trip length. See every price on our charters page."
+      - q: How do I reserve a trip?
+        a: Book online or call us. A 10% deposit holds your date.
+      - q: What happens if the weather is bad?
+        a: Deposits are refundable for weather. If conditions are unsafe or unfishable, we reschedule or return your deposit rather than run a bad trip.
+      - q: Do you sell gift cards?
+        a: Yes, in any amount, good for any trip.
+  - group: What's included and what to bring
+    items:
+      - q: Do I need a fishing license?
+        a: No. The captain's license covers everyone on board.
+      - q: What's included?
+        a: Your captain, rods, reels, tackle and bait, plus bottled water and ice. On offshore trips we also clean your catch at the dock.
+      - q: What should I bring?
+        a: Food or snacks, any drinks besides water, sunglasses, sunblock and clothes for the weather.
+  - group: On the water
+    items:
+      - q: Can kids come?
+        a: Yes. Inshore and crappie trips are the easiest for young kids because the water is calm.
+      - q: Do I need experience?
+        a: No. Your captain rigs the rods, picks the spot and talks you through every bite.
+      - q: What will we catch?
+        a: It depends on the trip and the season. Redfish, snook and trout inshore. Snapper, grouper, sheepshead and kings nearshore. Bigger grouper, snapper and cobia offshore. Crappie on the lakes.
+      - q: Do you fish all year?
+        a: Yes. What's biting changes with the seasons, but there's always something worth going after.
+      - q: How many people can come?
+        a: "Up to 4 on offshore and crappie trips. [CONFIRM limits for other trips]"
+  - group: Where we go
+    items:
+      - q: Where do trips leave from?
+        a: "Marinas around metro Tampa, depending on the captain and the trip. [DEPARTURE MARINAS] Crappie trips launch from the lake we're fishing that week."
+      - q: What areas do you fish?
+        a: All of Tampa Bay, including Apollo Beach, St. Petersburg and Anna Maria, plus the Gulf and the lakes south of Orlando.
+---
+{% for g in faqs %}
+<h2>{{ g.group }}</h2>
+{% for i in g.items %}<h3>{{ i.q }}</h3><p>{{ i.a }}</p>{% endfor %}
+{% endfor %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for g in faqs %}{% for i in g.items %}{"@type":"Question","name":{{ i.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ i.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}{% if not loop.last %},{% endif %}{% endfor %}]}</script>

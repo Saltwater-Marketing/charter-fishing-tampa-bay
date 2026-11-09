@@ -1,0 +1,27 @@
+{
+  "name": "Charter Fishing Tampa Bay",
+  "url": "https://www.charterfishingtampabay.com",
+  "phone": "(813) 714-5670",
+  "tel": "8137145670",
+  "email": "william@charterfishingtampabay.com",
+  "booking": "https://book.vallypro.com/p/charter-fishingtampa-bay",
+  "giftCards": "[GIFT CARD LINK]",
+  "facebook": "https://www.facebook.com/charterfishingtampabay",
+  "instagram": "https://www.instagram.com/charterfishingtampabay/",
+  "gtm": "",
+  "ga4": "",
+  "nav": [
+    { "label": "Charters", "url": "/charters/", "children": [
+      { "label": "Inshore", "url": "/inshore/" }, { "label": "Nearshore", "url": "/nearshore/" },
+      { "label": "Offshore", "url": "/offshore-fishing/" }, { "label": "Crappie", "url": "/crappie-fishing/" },
+      { "label": "Redfish", "url": "/redfish/" }, { "label": "Snook", "url": "/snook/" },
+      { "label": "Tarpon", "url": "/tarpon/" }, { "label": "Grouper", "url": "/grouper/" }, { "label": "Shark", "url": "/shark/" } ] },
+    { "label": "Areas We Fish", "url": "/tampa-bay-fishing/", "children": [
+      { "label": "Tampa Bay", "url": "/tampa-bay-fishing/" }, { "label": "Apollo Beach", "url": "/apollo-beach-fishing/" },
+      { "label": "St. Petersburg", "url": "/st-petersburg-fishing/" }, { "label": "Anna Maria", "url": "/anna-maria-fishing/" } ] },
+    { "label": "Our Captains", "url": "/about/" },
+    { "label": "Fishing Reports", "url": "/fishing-reports/" },
+    { "label": "FAQ", "url": "/faq/" },
+    { "label": "Contact", "url": "/contact-us/" }
+  ]
+}

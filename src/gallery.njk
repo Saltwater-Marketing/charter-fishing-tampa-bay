@@ -1,0 +1,28 @@
+---
+layout: page.njk
+permalink: /gallery/
+seoTitle: "Fishing Charter Photos | Charter Fishing Tampa Bay"
+description: "Real photos from our Tampa Bay fishing charters: redfish, snook, grouper, sharks, crappie & the families and crews who caught them. Book your trip."
+h1: Photos From Our Tampa Bay Charters
+intro: "Real guests, real fish, real days on the water."
+gallery:
+  - [guest-redfish-mangroves, Guest holding a redfish in front of the mangroves]
+  - [two-anglers-redfish, Two anglers holding redfish]
+  - [grouper-tampa-bay, Angler holding a grouper on Tampa Bay]
+  - [shark-boatside, Guest beside a shark at the boat]
+  - [family-shark-bow, Family on the bow watching a shark]
+  - [offshore-snapper-grouper-deck, Snapper and grouper on the deck]
+  - [lake-kissimmee-crappie, Crappie from Lake Kissimmee]
+  - [sheepshead-nearshore, Angler with a sheepshead]
+  - [gator-trout, Angler with a big speckled trout]
+  - [tripletail, Angler holding a tripletail]
+  - [kingfish-catch, Anglers on the dock with kingfish]
+  - [snook-inshore, Angler holding a snook]
+  - [wapiti-veterans-dock, Combat veterans on the dock after their trip]
+  - [goliath-grouper-boatside, A goliath grouper beside the boat before release]
+  - [nearshore-crew, Two anglers on a nearshore trip]
+  - [charter-boat-dock, Charter boat at the dock]
+---
+</div></div><div class="wrap" style="padding-bottom:72px"><div class="gallery">
+{% for g in gallery %}<img src="/images/{{ g[0] }}.webp" alt="{{ g[1] }}" loading="lazy" width="1400" height="1050">{% endfor %}
+</div><div>

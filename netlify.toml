@@ -1,0 +1,95 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+# Old Wix blog posts, consolidated Nov 2026
+[[redirects]]
+  from = "/post/king-mackerel-tampa-bay"
+  to = "/fishing-guides/king-mackerel-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/fall-mullet-run-tampa-bay"
+  to = "/fishing-guides/fall-mullet-run-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/snook-season-tampa-bay"
+  to = "/fishing-guides/snook-season-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/october-2026-tampa-bay-fishing-report"
+  to = "/fishing-reports/october-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/october-2026-hogfish-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/october-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/a-9-11-fishing-trip-with-wapiti-combat-veterans-foundation"
+  to = "/fishing-reports/grouper-tripletail-wapiti-combat-veterans-september-2026/"
+  status = 301
+[[redirects]]
+  from = "/post/grouper-tripletail-a-gift-we-wont-forget"
+  to = "/fishing-reports/grouper-tripletail-wapiti-combat-veterans-september-2026/"
+  status = 301
+[[redirects]]
+  from = "/post/september-2026-inside-tampa-bay-fishing-report"
+  to = "/fishing-reports/september-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/september-2026-shark-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/september-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/september-2026-tripletail-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/september-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/september-2026-offshore-grouper-snapper-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/september-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/august-2026-mixed-bag-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/august-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/august-2026-redfish-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/august-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/august-2026-gator-trout-fishing-report-tampa-bay-fl"
+  to = "/fishing-reports/august-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/trout-redfish-fishing-report-tampa-bay-fl-august-2026"
+  to = "/fishing-reports/august-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/gag-grouper-season-opens-september-1-in-tampa-bay"
+  to = "/grouper/"
+  status = 301
+[[redirects]]
+  from = "/post/lake-kissimmee-crappie-fishing-report"
+  to = "/fishing-reports/crappie-fishing-report-lake-kissimmee-january-2026/"
+  status = 301
+[[redirects]]
+  from = "/post/tampa-bay-bottom-january-fishing-report"
+  to = "/fishing-reports/january-2026-fishing-roundup-tampa-bay/"
+  status = 301
+[[redirects]]
+  from = "/post/tampa-bay-sheepshead-january-fishing-report"
+  to = "/fishing-reports/january-2026-fishing-roundup-tampa-bay/"
+  status = 301
+# Any other old blog address
+[[redirects]]
+  from = "/post/*"
+  to = "/fishing-reports/"
+  status = 301
+[[redirects]]
+  from = "/blog"
+  to = "/fishing-reports/"
+  status = 301
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"

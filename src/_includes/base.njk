@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ seoTitle or title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ seoTitle or title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if heroImg %}<meta property="og:image" content="{{ site.url }}/images/{{ heroImg }}.webp">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+{% if site.gtm %}<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ site.gtm }}');</script>{% endif %}
+{% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="wordmark" href="/">Charter Fishing Tampa Bay</a>
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+      {% for item in site.nav %}
+        <li class="{% if item.children %}has-sub{% endif %}">
+          <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+          {% if item.children %}<ul class="sub">{% for c in item.children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>{% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:{{ site.tel }}">{{ site.phone }}</a>
+      <a class="btn btn-accent" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+    </div>
+    <details class="mobile-nav">
+      <summary>Menu</summary>
+      <ul>
+      {% for item in site.nav %}<li><a href="{{ item.url }}">{{ item.label }}</a>{% if item.children %}<ul>{% for c in item.children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}
+      </ul>
+    </details>
+  </div>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<section class="band-accent">
+  <div class="wrap cta-row">
+    <div>
+      <h2 class="display-md">{{ ctaHeading or "Hold your date" }}</h2>
+      <p>Tell us what you want to catch and when you're in town. A 10% deposit holds your date, and if the weather turns, you get a new date or your deposit back.</p>
+    </div>
+    <a class="btn btn-navy" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="wordmark">Charter Fishing Tampa Bay</p>
+      <p>Inshore, nearshore, offshore and crappie fishing charters, launching from marinas around metro Tampa.</p>
+    </div>
+    <div>
+      <p class="foot-head">Contact</p>
+      <p><a href="tel:{{ site.tel }}">{{ site.phone }}</a><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p><a href="{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a> · <a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></p>
+    </div>
+    <div>
+      <p class="foot-head">Charters</p>
+      <ul>{% for c in site.nav[0].children %}<li><a href="{{ c.url }}">{{ c.label }}</a></li>{% endfor %}</ul>
+    </div>
+    <div>
+      <p class="foot-head">More</p>
+      <ul>
+        <li><a href="/about/">Our Captains</a></li><li><a href="/fishing-reports/">Fishing Reports</a></li>
+        <li><a href="/fishing-guides/">Season Guides</a></li><li><a href="/gallery/">Gallery</a></li>
+        <li><a href="/reviews/">Reviews</a></li><li><a href="/faq/">FAQ</a></li>
+        <li><a href="{{ site.giftCards }}">Gift Cards</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <span>© 2026 Charter Fishing Tampa Bay · <a href="/privacy/">Privacy</a> · <a href="/terms-conditions/">Terms</a></span>
+    <a href="https://www.saltwatermarketing.net/" target="_blank" rel="noopener">Website by Saltwater Marketing</a>
+  </div>
+</footer>
+</body>
+</html>

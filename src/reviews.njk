@@ -1,0 +1,10 @@
+---
+layout: page.njk
+permalink: /reviews/
+seoTitle: "Guest Reviews | Charter Fishing Tampa Bay"
+description: "Read what guests say after fishing Tampa Bay with our guides, from first time families to serious anglers. See the reviews, then reserve your date."
+h1: What Our Guests Say
+intro: "[850+] five star reviews across our captains. A few from our Google profile:"
+---
+{% for r in reviews %}<blockquote><p>"{{ r.quote }}"<br><strong>{{ r.name }}{% if r.note %}, {{ r.note }}{% endif %}</strong></p></blockquote>{% endfor %}
+<p>[LINK TO GOOGLE PROFILE AND OTHER REVIEW SOURCES]</p>

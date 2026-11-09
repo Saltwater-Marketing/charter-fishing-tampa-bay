@@ -1,0 +1,10 @@
+[
+  { "name": "Inshore", "url": "/inshore/", "img": "two-anglers-redfish", "alt": "Two anglers holding redfish by the mangroves", "from": "$600",
+    "line": "Watch a redfish push up along the mangrove roots, then make the cast. Protected water and short runs, with snook and trout in the same places." },
+  { "name": "Nearshore", "url": "/nearshore/", "img": "sheepshead-nearshore", "alt": "Angler holding a sheepshead caught nearshore", "from": "$850",
+    "line": "A short run past the beaches, then snapper, grouper and sheepshead coming up off the reef, with kingfish passing through in spring and fall." },
+  { "name": "Offshore", "url": "/offshore-fishing/", "img": "offshore-snapper-grouper-deck", "alt": "Snapper and grouper laid out on the deck after an offshore trip", "from": "$950",
+    "line": "Drop to Gulf wrecks and ledges 40 to 100 feet down and feel a grouper try to take it back to the bottom. Up to 4 guests." },
+  { "name": "Crappie", "url": "/crappie-fishing/", "img": "lake-kissimmee-crappie", "alt": "A cooler lid covered in crappie from Lake Kissimmee", "from": "$550",
+    "line": "Quiet lake water near Orlando, and a school of specks that keeps biting once you find it." }
+]

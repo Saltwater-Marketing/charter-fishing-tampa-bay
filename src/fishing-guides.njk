@@ -1,0 +1,12 @@
+---
+layout: page.njk
+permalink: /fishing-guides/
+seoTitle: "Fishing Season Guides | Charter Fishing Tampa Bay"
+description: "When snook season opens, when kingfish run & what the fall mullet run means for Tampa Bay anglers. Straight answers from our local fishing guides."
+h1: Tampa Bay Fishing Season Guides
+intro: "Straight answers on when things happen in Tampa Bay, so you can pick the right week and the right trip."
+---
+{% for g in collections.guides %}
+<h2><a href="{{ g.url }}">{{ g.data.h1 }}</a></h2>
+<p>{{ g.data.description }}</p>
+{% endfor %}

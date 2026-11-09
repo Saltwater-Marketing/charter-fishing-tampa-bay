@@ -1,0 +1,16 @@
+---
+layout: page.njk
+permalink: /fishing-reports/
+seoTitle: "Tampa Bay Fishing Reports | Charter Fishing Tampa Bay"
+description: "Fishing reports from our Tampa Bay guides, written from real trips: what's biting, where & what changed. Read the latest, then reserve your date."
+h1: Tampa Bay Fishing Reports
+intro: "Written from real trips by the captains who ran them. When there's something worth telling you, it goes here."
+---
+<div class="reports" style="max-width:none">
+{% for r in collections.reports %}
+<a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
+<span class="meta">{{ r.date | monthYear }} · {{ r.data.author }}</span><span class="rt">{{ r.data.h1 }}</span></a>
+{% endfor %}
+</div>
+<h2>Planning ahead? Read the season guides</h2>
+<p>{% for g in collections.guides %}<a href="{{ g.url }}">{{ g.data.h1 }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
