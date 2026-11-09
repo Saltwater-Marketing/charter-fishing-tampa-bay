@@ -36,9 +36,12 @@ Anything missing gets a `[PLACEHOLDER]`. Never invent facts, numbers, quotes, bo
 
 Old Wix leftovers redirected: `/copy-of-about`, `/confirmation`, `/profile/*`.
 
+## Decided
+
+- Capt. Rob Hahn is one of our captains (Andre, Nov 9, 2026). He also runs Barotrauma Fishing Charters; treat him the same as the other guides on the site.
+
 ## Open decisions
 
-- Capt. Rob Hahn: one of "our captains" or shown as a partner (he runs Barotrauma Fishing Charters)
 - Capt. Gavin O'Neal: missing from the site; needs a bio and photo
 - Real numbers for "[95+] years" and the review count before either goes in copy
 - Marinas, guest limits and boat details per captain
