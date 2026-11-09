@@ -1,0 +1,36 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# Charter Fishing Tampa Bay
+
+> Private fishing charters on Tampa Bay, Florida, run by a crew of four local captains: Capt. William Ashmore, Capt. David Pruner, Capt. Frankie Gonzalez and Capt. Rob Hahn. Inshore, nearshore, offshore (deep sea) and freshwater crappie trips. Prices are per boat, from $550. 133 five star Google reviews. Call or text {{ site.phone }}.
+
+Key facts:
+
+- Service area: Tampa Bay from Ruskin to St. Petersburg, the Gulf of Mexico past the mouth of the bay, and the Kissimmee area lakes (Lake Kissimmee, Lake Toho, Crooked Lake) for crappie.
+- Trip lengths: 4, 6 or 8 hours. Morning trips leave at 8:00 AM; most 4 and 6 hour trips can also leave at 1:00 PM.
+- Included: captain, rods, reels, tackle, bait and saltwater fishing licenses. Crappie anglers bring a Florida freshwater fishing license.
+- Booking: a 10% deposit holds the date; if the weather is unsafe, guests get a new date or the deposit back.
+- Book online: {{ site.booking }}
+
+## Trips
+
+{% for t in trips %}- [{{ t.name }} fishing charters]({{ site.url }}{{ t.url }}): {{ t.line }} {% for r in t.rates %}{{ r[0] }} {{ r[1] }}{% if not loop.last %}, {% endif %}{% endfor %} per boat. {{ t.guests }}.
+{% endfor %}
+## Captains and reviews
+
+- [Our captains]({{ site.url }}/about/): bios, boats and the trips each captain runs.
+- [Reviews]({{ site.url }}/reviews/): guest reviews, word for word.
+
+## Planning a trip
+
+- [All charters and prices]({{ site.url }}/charters/)
+- [Where we fish]({{ site.url }}/tampa-bay-fishing/)
+- [FAQ]({{ site.url }}/faq/): prices, group sizes, licenses, kids, weather and departure points.
+- [Contact]({{ site.url }}/contact-us/)
+
+## Fishing reports
+
+{% for r in collections.reports %}- [{{ r.data.h1 or r.data.title }}]({{ site.url }}{{ r.url }})
+{% endfor %}

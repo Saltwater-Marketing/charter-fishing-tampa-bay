@@ -6,7 +6,7 @@
     <p class="trip-hook">{{ t.line }}</p>
     <ul class="trip-rates">{% for r in t.rates %}<li><span>{{ r[0] }}</span><strong>{{ r[1] }}</strong></li>{% endfor %}</ul>
     <div class="trip-actions">
-      <a class="btn btn-outline btn-sm" href="{{ t.url }}">Learn More</a>
+      <a class="btn btn-outline btn-sm" href="{{ t.url }}">{{ t.name }} Details</a>
       <a class="btn btn-accent btn-sm" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a>
     </div>
   </div>
