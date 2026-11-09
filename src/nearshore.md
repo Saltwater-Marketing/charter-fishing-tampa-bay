@@ -41,7 +41,7 @@ Winter is sheepshead time. They stack up on reefs, rock piles and pilings, and t
 
 ### Kingfish
 
-Kings run past the mouth of the bay twice a year, peaking in April and May and again in October and November. They hit fast and run hard, and the first run off a good one is what people remember. [When kings run](/fishing-guides/king-mackerel-tampa-bay/)
+Kings run past the mouth of the bay twice a year, peaking in April and May and again in October and November. They hit fast and run hard, and the first run off a good one is what people remember.
 
 ## Nearshore fishing in Tampa Bay by season
 

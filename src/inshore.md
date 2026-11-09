@@ -49,7 +49,7 @@ In September our captains were also into schools of Spanish mackerel with jacks 
 
 **Summer:** tarpon roll through from May to August, and late summer brings more reds and steady sharks.
 
-**Fall:** the mullet run, October into December, puts snook, redfish and sharks on the feed at the same time. [Read the mullet run guide](/fishing-guides/fall-mullet-run-tampa-bay/)
+**Fall:** the mullet run, October into December, puts snook, redfish and sharks on the feed at the same time.
 
 **Winter:** sheepshead stack up on docks, rock piles and bridge pilings.
 

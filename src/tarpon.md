@@ -31,7 +31,7 @@ The peak of the run. Prime dates fill early, so plan ahead if you have a week in
 
 ### Into the fall
 
-Some tarpon stay in the area into the fall, and the ones still around during the mullet run often feed right in the middle of the bait schools. [Read the mullet run guide](/fishing-guides/fall-mullet-run-tampa-bay/)
+Some tarpon stay in the area into the fall, and the ones still around during the mullet run often feed right in the middle of the bait schools.
 
 ## What a tarpon trip is like
 

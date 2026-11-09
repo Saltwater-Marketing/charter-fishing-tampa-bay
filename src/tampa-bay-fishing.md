@@ -28,8 +28,5 @@ Nearshore and offshore trips to Gulf reefs, wrecks and ledges. [Nearshore](/near
 
 ## Fishing Tampa Bay through the year
 
-Kings pass the mouth of the bay in spring and fall. Tarpon roll through from May to August. The fall mullet run puts snook, redfish and sharks on the feed together, and winter is sheepshead time on the docks and pilings. [Season guides](/fishing-guides/)
+Kings pass the mouth of the bay in spring and fall. Tarpon roll through from May to August. The fall mullet run puts snook, redfish and sharks on the feed together, and winter is sheepshead time on the docks and pilings.
 
-## Fishing around the bay
-
-[Apollo Beach](/apollo-beach-fishing/) · [St. Petersburg](/st-petersburg-fishing/) · [Anna Maria](/anna-maria-fishing/)

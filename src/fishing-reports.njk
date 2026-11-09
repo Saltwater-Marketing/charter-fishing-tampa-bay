@@ -12,5 +12,3 @@ intro: "Written from real trips by the captains who ran them. When there's somet
 <span class="meta">{{ r.date | monthYear }} · {{ r.data.author }}</span><span class="rt">{{ r.data.h1 }}</span></a>
 {% endfor %}
 </div>
-<h2>Planning ahead? Read the season guides</h2>
-<p>{% for g in collections.guides %}<a href="{{ g.url }}">{{ g.data.h1 }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>

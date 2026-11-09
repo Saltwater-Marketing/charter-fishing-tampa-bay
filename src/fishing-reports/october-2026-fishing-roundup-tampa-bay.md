@@ -24,6 +24,6 @@ Hogfish, also called hog snapper, are back on the menu. Our hogfish trips run fr
 
 ## What's coming in November
 
-The mullet run peaks in November, and that puts snook, redfish and sharks on the feed at the same time. Kings pass the mouth of the bay in October and November too. [Read the mullet run guide](/fishing-guides/fall-mullet-run-tampa-bay/)
+The mullet run peaks in November, and that puts snook, redfish and sharks on the feed at the same time. Kings pass the mouth of the bay in October and November too.
 
 Want to get in on the fall bite? [Inshore trips](/inshore/) start at $600, or [reserve your date online](https://book.vallypro.com/p/charter-fishingtampa-bay).

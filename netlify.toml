@@ -5,15 +5,15 @@
 # Old Wix blog posts, consolidated Nov 2026
 [[redirects]]
   from = "/post/king-mackerel-tampa-bay"
-  to = "/fishing-guides/king-mackerel-tampa-bay/"
+  to = "/nearshore/"
   status = 301
 [[redirects]]
   from = "/post/fall-mullet-run-tampa-bay"
-  to = "/fishing-guides/fall-mullet-run-tampa-bay/"
+  to = "/inshore/"
   status = 301
 [[redirects]]
   from = "/post/snook-season-tampa-bay"
-  to = "/fishing-guides/snook-season-tampa-bay/"
+  to = "/snook/"
   status = 301
 [[redirects]]
   from = "/post/october-2026-tampa-bay-fishing-report"
@@ -69,7 +69,7 @@
   status = 301
 [[redirects]]
   from = "/post/lake-kissimmee-crappie-fishing-report"
-  to = "/fishing-reports/crappie-fishing-report-lake-kissimmee-january-2026/"
+  to = "/fishing-reports/january-2026-fishing-roundup-tampa-bay/"
   status = 301
 [[redirects]]
   from = "/post/tampa-bay-bottom-january-fishing-report"
@@ -87,6 +87,53 @@
 [[redirects]]
   from = "/blog"
   to = "/fishing-reports/"
+  status = 301
+
+# Nov 2026 sitemap trim: tabled area pages, merged season guides and crappie report
+[[redirects]]
+  from = "/apollo-beach-fishing"
+  to = "/tampa-bay-fishing/"
+  status = 301
+[[redirects]]
+  from = "/st-petersburg-fishing"
+  to = "/tampa-bay-fishing/"
+  status = 301
+[[redirects]]
+  from = "/anna-maria-fishing"
+  to = "/tampa-bay-fishing/"
+  status = 301
+[[redirects]]
+  from = "/fishing-guides/king-mackerel-tampa-bay"
+  to = "/nearshore/"
+  status = 301
+[[redirects]]
+  from = "/fishing-guides/fall-mullet-run-tampa-bay"
+  to = "/inshore/"
+  status = 301
+[[redirects]]
+  from = "/fishing-guides/snook-season-tampa-bay"
+  to = "/snook/"
+  status = 301
+[[redirects]]
+  from = "/fishing-guides"
+  to = "/fishing-reports/"
+  status = 301
+[[redirects]]
+  from = "/fishing-reports/crappie-fishing-report-lake-kissimmee-january-2026"
+  to = "/fishing-reports/january-2026-fishing-roundup-tampa-bay/"
+  status = 301
+# Old Wix leftovers
+[[redirects]]
+  from = "/copy-of-about"
+  to = "/about/"
+  status = 301
+[[redirects]]
+  from = "/confirmation"
+  to = "/thank-you/"
+  status = 301
+[[redirects]]
+  from = "/profile/*"
+  to = "/"
   status = 301
 
 [[headers]]

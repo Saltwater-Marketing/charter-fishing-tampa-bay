@@ -49,7 +49,7 @@ Cobia often cruise or hover near structure. When one shows up, everyone wants a 
 
 ### Kingfish and mackerel
 
-Kings show up on offshore trips alongside the bottom fish, with fast strikes and long runs. [When kings run](/fishing-guides/king-mackerel-tampa-bay/)
+Kings show up on offshore trips alongside the bottom fish, with fast strikes and long runs.
 
 ### Sheepshead, porgies, grunts and triggerfish
 

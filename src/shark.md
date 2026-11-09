@@ -31,7 +31,7 @@ In August our captains had the smaller sharks very active, with steady action fo
 
 ### Fall
 
-Sharks shadow the mullet schools along the passes and channels, picking off bait at the edges. [Read the mullet run guide](/fishing-guides/fall-mullet-run-tampa-bay/)
+Sharks shadow the mullet schools along the passes and channels, picking off bait at the edges.
 
 ## Who a shark trip is for
 

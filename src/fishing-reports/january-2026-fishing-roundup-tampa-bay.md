@@ -2,7 +2,7 @@
 title: "January 2026 Fishing Roundup — Tampa Bay, FL"
 seoTitle: "January 2026 Fishing Roundup, Tampa Bay | CFTB"
 h1: "January 2026 Fishing Roundup — Tampa Bay, FL"
-description: "Sheepshead stacked on Tampa Bay structure and a hot bottom bite nearshore and offshore. Our January 2026 fishing roundup, from snapper to red grouper."
+description: "Sheepshead stacked on Tampa Bay structure, a steady bottom bite nearshore and crappie limits on Lake Kissimmee. Our January 2026 fishing roundup."
 date: 2026-01-19
 permalink: /fishing-reports/january-2026-fishing-roundup-tampa-bay/
 heroImg: sheepshead-nearshore
@@ -21,5 +21,9 @@ Closer to shore, our captains were catching plenty of white grunt, mangrove snap
 ## Offshore
 
 Offshore trips produced bigger mixed bags on deeper structure. [See offshore trips](/offshore-fishing/)
+
+## Crappie on Lake Kissimmee
+
+Inland, the crappie moved into the grass on Lake Kissimmee and staged along the grass edges and openings. Recent trips produced full limits, up to 25 fish per person, on light tackle with jigs and minnows. Once we found a school, the action stayed steady. [See crappie trips](/crappie-fishing/)
 
 [Reserve your date](https://book.vallypro.com/p/charter-fishingtampa-bay) or call (813) 714-5670.

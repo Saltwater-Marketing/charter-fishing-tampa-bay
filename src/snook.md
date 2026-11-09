@@ -31,7 +31,7 @@ Snook trips run all year. Outside the harvest windows every snook goes back, whi
 
 ### When you can keep one
 
-Tampa Bay falls under Florida's Gulf snook rules, with harvest windows in the fall and spring, one fish per person inside a size slot. [RECHECK CURRENT FWC DATES AND SLOT BEFORE LAUNCH] [Full snook season guide](/fishing-guides/snook-season-tampa-bay/)
+Tampa Bay falls under Florida's Gulf snook rules, with harvest windows in the fall and spring, one fish per person inside a size slot. [RECHECK CURRENT FWC DATES AND SLOT BEFORE LAUNCH]
 
 ### Fall is a strong stretch
 

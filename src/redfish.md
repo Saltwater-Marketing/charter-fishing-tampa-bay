@@ -45,7 +45,7 @@ More reds push into the bay from the surrounding waters, and the numbers build f
 
 ### Fall
 
-The mullet run puts redfish on the feed alongside snook and sharks. [Read the mullet run guide](/fishing-guides/fall-mullet-run-tampa-bay/)
+The mullet run puts redfish on the feed alongside snook and sharks.
 
 ### The rest of the year
 
