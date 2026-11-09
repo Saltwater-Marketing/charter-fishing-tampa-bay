@@ -31,7 +31,7 @@ Shark trips run on the same schedule as our [inshore trips](/inshore/) and take 
 
 > "Water conditions were less than ideal and abnormally cold and although the fish weren't biting great the captain tried multiple locations and different baits until we started catching some. My son had a memorable 12th birthday. He'll never forget catching a shark!" Darby L. H., February 2026
 
-> "Captain Frankie provided an outstanding fishing experience for my family. He went above and beyond to make our trip outstanding." Jason P., April 2026, with Capt. Gonzalez
+> "Captain Frankie provided an outstanding fishing experience for my family. He went above and beyond to make our trip outstanding. Created memories that will last a lifetime. 80 pound bull shark landed and a big one that got away!" Jason P., April 2026, with Capt. Gonzalez
 
 ## How long to book
 

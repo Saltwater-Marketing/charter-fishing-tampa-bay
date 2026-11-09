@@ -19,13 +19,13 @@ times: "8:00 AM"
 included: Captain, rods, reels, tackle, bait, safety equipment, and a cooler with cold water and ice
 bring: A Florida freshwater fishing license for each angler, food and drinks, sunglasses, sun protection
 ---
-## A freshwater day away from the bay
+## Lake Kissimmee, Lake Toho and Crooked Lake
 
 Crappie trips run on the Kissimmee area lakes south of Orlando: Lake Kissimmee, Lake Toho and Crooked Lake. The booking page calls them "perfect for a day of fun for new & experienced anglers."
 
 There's no run across open water and no swell, just a boat on a calm lake.
 
-## How the January bite worked
+## How the Lake Kissimmee bite worked in January
 
 The fish were staging along grass edges and openings. Once the captain found a school, the bites stayed steady and the action held.
 

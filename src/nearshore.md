@@ -45,6 +45,10 @@ Capt. Pruner, Capt. Gonzalez and Capt. Ashmore all run nearshore trips. Capt. Go
 
 ## Nearshore questions
 
+### How far out is nearshore fishing?
+
+From the mouth of Tampa Bay out to about nine miles, where Florida's state waters end. Past that line is our [offshore and deep sea fishing](/offshore-fishing/) trip.
+
 ### Is it rough out there?
 
 It depends on the wind. Your captain watches the forecast and calls it straight before you leave the dock. A 10% deposit holds your date, and if conditions are unsafe you get a new date or your deposit back.

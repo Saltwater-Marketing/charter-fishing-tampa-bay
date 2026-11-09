@@ -36,7 +36,7 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
   <div class="wrap">
     <p class="eyebrow">Tampa Bay fishing charters</p>
     <h2>Pick the kind of day you want</h2>
-    <p class="sub-lead">Every price is per boat, not per person, and includes your captain, gear, bait and fishing licenses.</p>
+    <p class="sub-lead">Every price is per boat, not per person, and includes your captain, gear and bait, plus fishing licenses on every saltwater trip. Most trips come as a half day (4 hours), 6 hours or a full day (8 hours).</p>
     <div class="trip-grid-cards">
     {% for t in trips %}{% if t.group == "water" %}{% include "trip-card.njk" %}{% endif %}{% endfor %}
     </div>
@@ -47,14 +47,29 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
   </div>
 </section>
 
-<section class="section section-light">
+
+<section class="section section-light" id="deep-sea">
+  <div class="wrap split split-center">
+    <img class="first-img" src="/images/offshore-snapper-grouper-deck.webp" alt="Red grouper and snapper on the deck after a deep sea fishing trip out of Tampa Bay" loading="lazy" width="1400" height="997">
+    <div>
+      <p class="eyebrow">Deep sea fishing from Tampa Bay</p>
+      <h2>Offshore Fishing Past the Nine Mile Line</h2>
+      <p>Our offshore trip is our deep sea fishing day. It starts at the nine mile line, where Florida's state waters end and federal water begins, and the boat holds a federal permit for reef and pelagic fish.</p>
+      <p>Most of the day is spent on the bottom, dropping baits 40 to 100 feet or more onto Gulf wrecks, reefs and ledges. In September 2026, red grouper and red snapper led the offshore bite, with mangrove, lane and vermilion snapper mixed in.</p>
+      <p>Capt. Ashmore runs our offshore trips. They go 6 or 8 hours, from $950 per boat, with room for up to six. If the Gulf won't cooperate, he calls it straight and you get a new date or your deposit back.</p>
+      <div class="btn-row"><a class="btn btn-navy" href="/offshore-fishing/">See Offshore &amp; Deep Sea Trips</a> <a class="btn btn-outline" href="{{ site.booking }}" target="_blank" rel="noopener">Reserve a Date</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="wrap split">
     <div>
       <p class="eyebrow">Seasons &amp; species</p>
       <h2>What to Expect Fishing Tampa Bay</h2>
       <div class="seasons">
         <div class="season"><h3>Spring</h3><p>Kingfish move north past the mouth of the bay, with the run peaking in April and May. Snook open for harvest again in March and April.</p></div>
-        <div class="season"><h3>Summer</h3><p>Tarpon roll through the bay from May through August. By late summer, redfish start pushing in from the surrounding waters and the sharks stay busy.</p></div>
+        <div class="season"><h3>Summer</h3><p>Tarpon roll through the bay in summer, and our tarpon trips run May through July. By late summer, redfish start pushing in from the surrounding waters and the sharks stay busy.</p></div>
         <div class="season"><h3>Fall</h3><p>Schools of mullet push along the shorelines on their way to the Gulf, and snook, redfish, tarpon and sharks follow them. Kings come back through in October and November.</p></div>
         <div class="season"><h3>Winter</h3><p>Sheepshead stack up on reefs, rock piles, docks and bridge pilings, and the bottom fishing stays steady nearshore. It's also when the crappie bite on the lakes.</p></div>
       </div>
@@ -64,6 +79,20 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
       <h3 class="h3-lg">Your first fishing charter</h3>
       <p>You don't need to know anything before you step on the boat. Your captain rigs the rods, picks the spot and talks you through the bite, the hookset and the fight. Kids are welcome, and inshore and crappie trips are the easiest place for young anglers to start.</p>
     </div>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="wrap">
+    <div class="head-row"><div><p class="eyebrow">Tampa Bay fishing reports</p><h2>Latest From the Water</h2></div><a class="link-arrow" href="/fishing-reports/">All fishing reports <span aria-hidden="true">→</span></a></div>
+    <p class="sub-lead">Our captains write up what's biting from their own trips: the species, the water and what changed. Read the latest before you pick your trip.</p>
+    <div class="reports">
+    {% for r in collections.reports | head(3) %}
+      <a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
+      <span class="meta">{{ r.date | monthYear }}</span><span class="rt">{{ r.data.h1 or r.data.title }}</span></a>
+    {% endfor %}
+    </div>
+    <p class="depart-note"><a class="btn btn-navy" href="/fishing-reports/">Read the Fishing Reports</a></p>
   </div>
 </section>
 
@@ -146,14 +175,3 @@ schema: '{"@context":"https://schema.org","@type":"LocalBusiness","name":"Charte
   </div>
 </section>
 
-<section class="section section-light">
-  <div class="wrap">
-    <div class="head-row"><div><p class="eyebrow">Fishing reports</p><h2>Latest From the Water</h2></div><a class="link-arrow" href="/fishing-reports/">All fishing reports <span aria-hidden="true">→</span></a></div>
-    <div class="reports">
-    {% for r in collections.reports | head(3) %}
-      <a class="report" href="{{ r.url }}"><img src="/images/{{ r.data.heroImg }}.webp" alt="{{ r.data.heroAlt }}" loading="lazy" width="1400" height="1000">
-      <span class="meta">{{ r.date | monthYear }}</span><span class="rt">{{ r.data.h1 or r.data.title }}</span></a>
-    {% endfor %}
-    </div>
-  </div>
-</section>

@@ -369,3 +369,5 @@ form .check input{width:auto;margin-top:4px}
 .rv-praise li{background:#fff;border:2px solid var(--line);border-radius:999px;padding:10px 18px;font-weight:700;color:var(--navy);font-size:16px}
 .rv-praise li:nth-child(3n+1){border-color:var(--accent);background:#FFF6EC}
 @media (max-width:600px){.rv-big{font-size:72px}.rv-praise li{font-size:15px;padding:8px 14px}}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.prose img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:var(--radius);margin:4px 0 18px}

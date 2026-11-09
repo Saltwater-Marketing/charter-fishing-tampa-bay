@@ -19,9 +19,7 @@ times: "8:00 AM for 4, 6 or 8 hours; 1:00 PM for 4 hours"
 included: Captain, rods, reels, tackle, bait and saltwater fishing licenses
 bring: Food, drinks other than water, polarized sunglasses, sun protective clothing or sunscreen
 ---
-## Bridges, passes and the beach
-
-In Tampa Bay that means the bridges, the passes and the beaches.
+## A small boat for a big fish
 
 Tarpon trips are kept small: the price covers two anglers, and the boat takes four at most.
 
