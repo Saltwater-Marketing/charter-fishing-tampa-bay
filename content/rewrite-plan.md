@@ -46,6 +46,21 @@ Old Wix leftovers redirected: `/copy-of-about`, `/confirmation`, `/profile/*`.
 - Real numbers for "[95+] years" and the review count before either goes in copy
 - Marinas, guest limits and boat details per captain
 
+## Internal linking (part of every rewritten page)
+
+Kyle at Page Optimizer Pro: 3 to 4 internal links carry about the weight of one outside link, so the rewrite builds a deliberate web of links.
+
+- Every page gets at least 3 to 4 in-text links out to related pages, inside the copy itself. Menu, footer and repeated card blocks don't count.
+- Every page gets at least 3 to 4 in-text links in from other pages. Priority targets: Redfish, Snook, Inshore and Nearshore (the commercial pages), then Where We Fish and Our Captains.
+- Our Captains links each captain to the trips he runs; each trip page links to the captains who run it.
+- Every fishing report links to the trip and species pages for the fish it covers. Trip and species pages link back to their most relevant recent report.
+- FAQ answers link to the trip, pricing or captain page that answers them in full.
+- Where We Fish links each stretch of water to the trips that fish it.
+- Anchors describe the page in plain words and vary naturally ("our redfish trips", "Capt. Ashmore's inshore charters"). No repeated exact-match keyword anchors, and only links that help a reader.
+- Check after every build: `python3 scripts/link-report.py` flags any page under 3 in-text links out or in.
+
+Baseline before the rewrite (Nov 9, 2026): Our Captains, FAQ, Contact, Reviews and Gallery had 0 in-text links out; Redfish, Snook and Tarpon had 2 in-text links in; the reports had none in from outside the reports list.
+
 ## Fishing reports going forward
 
 Playbook v3: one in-depth report every 2 weeks or monthly, only with real trip details; unique titles; at least 2 to 3 real facts from the captain; thin notes become a monthly roundup; compare drafts against recent reports.
